@@ -1,0 +1,1311 @@
+﻿<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="2021.2.3">
+  <Settings>
+    <Param name="Audio latency priority" updates="None" val="use prefs" valType="str"/>
+    <Param name="Audio lib" updates="None" val="use prefs" valType="str"/>
+    <Param name="Completed URL" updates="None" val="" valType="str"/>
+    <Param name="Data file delimiter" updates="None" val="auto" valType="str"/>
+    <Param name="Data filename" updates="None" val="u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])" valType="code"/>
+    <Param name="Enable Escape" updates="None" val="True" valType="bool"/>
+    <Param name="Experiment info" updates="None" val="{'participant':'', 'session':'001'}" valType="code"/>
+    <Param name="Force stereo" updates="None" val="True" valType="bool"/>
+    <Param name="Full-screen window" updates="None" val="True" valType="bool"/>
+    <Param name="HTML path" updates="None" val="" valType="str"/>
+    <Param name="Incomplete URL" updates="None" val="" valType="str"/>
+    <Param name="Monitor" updates="None" val="testMonitor" valType="str"/>
+    <Param name="Resources" updates="None" val="[]" valType="list"/>
+    <Param name="Save csv file" updates="None" val="False" valType="bool"/>
+    <Param name="Save excel file" updates="None" val="False" valType="bool"/>
+    <Param name="Save hdf5 file" updates="None" val="False" valType="bool"/>
+    <Param name="Save log file" updates="None" val="True" valType="bool"/>
+    <Param name="Save psydat file" updates="None" val="True" valType="bool"/>
+    <Param name="Save wide csv file" updates="None" val="True" valType="bool"/>
+    <Param name="Screen" updates="None" val="1" valType="num"/>
+    <Param name="Show info dlg" updates="None" val="True" valType="bool"/>
+    <Param name="Show mouse" updates="None" val="False" valType="bool"/>
+    <Param name="Units" updates="None" val="height" valType="str"/>
+    <Param name="Use version" updates="None" val="" valType="str"/>
+    <Param name="Window size (pixels)" updates="None" val="(1024, 768)" valType="list"/>
+    <Param name="blendMode" updates="None" val="avg" valType="str"/>
+    <Param name="color" updates="None" val="$[0,0,0]" valType="color"/>
+    <Param name="colorSpace" updates="None" val="rgb" valType="str"/>
+    <Param name="elAddress" updates="None" val="100.1.1.1" valType="str"/>
+    <Param name="elDataFiltering" updates="None" val="FILTER_LEVEL_2" valType="str"/>
+    <Param name="elLiveFiltering" updates="None" val="FILTER_LEVEL_OFF" valType="str"/>
+    <Param name="elModel" updates="None" val="EYELINK 1000 DESKTOP" valType="str"/>
+    <Param name="elPupilAlgorithm" updates="None" val="ELLIPSE_FIT" valType="str"/>
+    <Param name="elPupilMeasure" updates="None" val="PUPIL_AREA" valType="str"/>
+    <Param name="elSampleRate" updates="None" val="1000" valType="num"/>
+    <Param name="elSimMode" updates="None" val="False" valType="bool"/>
+    <Param name="elTrackEyes" updates="None" val="RIGHT_EYE" valType="str"/>
+    <Param name="elTrackingMode" updates="None" val="PUPIL_CR_TRACKING" valType="str"/>
+    <Param name="expName" updates="None" val="annotation" valType="str"/>
+    <Param name="exportHTML" updates="None" val="on Sync" valType="str"/>
+    <Param name="eyetracker" updates="None" val="None" valType="str"/>
+    <Param name="gpAddress" updates="None" val="127.0.0.1" valType="str"/>
+    <Param name="gpPort" updates="None" val="4242" valType="num"/>
+    <Param name="keyboardBackend" updates="None" val="ioHub" valType="str"/>
+    <Param name="logging level" updates="None" val="exp" valType="code"/>
+    <Param name="mgBlink" updates="None" val="MIDDLE_BUTTON" valType="list"/>
+    <Param name="mgMove" updates="None" val="CONTINUOUS" valType="str"/>
+    <Param name="mgSaccade" updates="None" val="0.5" valType="num"/>
+    <Param name="plConfidenceThreshold" updates="None" val="0.6" valType="num"/>
+    <Param name="plPupilCaptureRecordingEnabled" updates="None" val="True" valType="bool"/>
+    <Param name="plPupilCaptureRecordingLocation" updates="None" val="" valType="str"/>
+    <Param name="plPupilRemoteAddress" updates="None" val="127.0.0.1" valType="str"/>
+    <Param name="plPupilRemotePort" updates="None" val="50020" valType="num"/>
+    <Param name="plPupilRemoteTimeoutMs" updates="None" val="1000" valType="num"/>
+    <Param name="plPupillometryOnly" updates="None" val="False" valType="bool"/>
+    <Param name="plSurfaceName" updates="None" val="psychopy_iohub_surface" valType="str"/>
+    <Param name="tbLicenseFile" updates="None" val="" valType="str"/>
+    <Param name="tbModel" updates="None" val="" valType="str"/>
+    <Param name="tbSampleRate" updates="None" val="60" valType="num"/>
+    <Param name="tbSerialNo" updates="None" val="" valType="str"/>
+  </Settings>
+  <Routines>
+    <Routine name="trial">
+      <TextComponent name="caption_target">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.04" valType="num"/>
+        <Param name="name" updates="None" val="caption_target" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0.4)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="set every repeat" val="$caption" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+      <TextComponent name="space">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.03" valType="num"/>
+        <Param name="name" updates="None" val="space" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, -0.46)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="Press ‘space’ to go on" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+      <ImageComponent name="image_0">
+        <Param name="anchor" updates="constant" val="center" valType="str"/>
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="set every repeat" val="$img1" valType="file"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="" valType="str"/>
+        <Param name="name" updates="None" val="image_0" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(-0.5, 0.15)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(0.2, 0.2)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="num"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+      <ImageComponent name="image_1">
+        <Param name="anchor" updates="constant" val="center" valType="str"/>
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="set every repeat" val="$img2" valType="file"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="" valType="str"/>
+        <Param name="name" updates="None" val="image_1" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(-0.25, 0.15)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(0.2, 0.2)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="num"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+      <ImageComponent name="image_2">
+        <Param name="anchor" updates="constant" val="center" valType="str"/>
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="set every repeat" val="$img3" valType="file"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="" valType="str"/>
+        <Param name="name" updates="None" val="image_2" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0,  0.15)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(0.2, 0.2)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="num"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+      <ImageComponent name="image_3">
+        <Param name="anchor" updates="constant" val="center" valType="str"/>
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="set every repeat" val="$img4" valType="file"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="" valType="str"/>
+        <Param name="name" updates="None" val="image_3" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0.25,  0.15)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(0.2, 0.2)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="num"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+      <ImageComponent name="image_4">
+        <Param name="anchor" updates="constant" val="center" valType="str"/>
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="set every repeat" val="$img5" valType="file"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="" valType="str"/>
+        <Param name="name" updates="None" val="image_4" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0.5,  0.15)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(0.2, 0.2)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="num"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+      <ImageComponent name="image_5">
+        <Param name="anchor" updates="constant" val="center" valType="str"/>
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="set every repeat" val="$img6" valType="file"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="" valType="str"/>
+        <Param name="name" updates="None" val="image_5" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(-0.5, -0.15)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(0.2, 0.2)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="num"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+      <ImageComponent name="image_6">
+        <Param name="anchor" updates="constant" val="center" valType="str"/>
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="set every repeat" val="$img7" valType="file"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="" valType="str"/>
+        <Param name="name" updates="None" val="image_6" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(-0.25, -0.15)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(0.2, 0.2)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="num"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+      <ImageComponent name="image_7">
+        <Param name="anchor" updates="constant" val="center" valType="str"/>
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="set every repeat" val="$img8" valType="file"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="" valType="str"/>
+        <Param name="name" updates="None" val="image_7" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, -0.15)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(0.2, 0.2)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="num"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+      <ImageComponent name="image_8">
+        <Param name="anchor" updates="constant" val="center" valType="str"/>
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="set every repeat" val="$img9" valType="file"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="" valType="str"/>
+        <Param name="name" updates="None" val="image_8" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0.25, -0.15)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(0.2, 0.2)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="num"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+      <ImageComponent name="image_9">
+        <Param name="anchor" updates="constant" val="center" valType="str"/>
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="set every repeat" val="$img10" valType="file"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="" valType="str"/>
+        <Param name="name" updates="None" val="image_9" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0.5, -0.15)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(0.2, 0.2)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="num"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+      <TextboxComponent name="textbox">
+        <Param name="alignment" updates="constant" val="center" valType="str"/>
+        <Param name="anchor" updates="constant" val="center" valType="str"/>
+        <Param name="autoLog" updates="constant" val="True" valType="bool"/>
+        <Param name="bold" updates="constant" val="False" valType="bool"/>
+        <Param name="borderColor" updates="constant" val="white" valType="color"/>
+        <Param name="borderWidth" updates="constant" val="2" valType="num"/>
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="editable" updates="constant" val="True" valType="bool"/>
+        <Param name="fillColor" updates="constant" val="None" valType="color"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="italic" updates="constant" val="False" valType="bool"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.04" valType="num"/>
+        <Param name="lineSpacing" updates="constant" val="1.0" valType="num"/>
+        <Param name="name" updates="None" val="textbox" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="padding" updates="constant" val="" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, -0.37)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(0.1, 0.08)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.5" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="set every repeat" val="" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </TextboxComponent>
+      <CodeComponent name="code">
+        <Param name="Before Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Before JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Experiment" updates="constant" val="allLetters = [&quot;q&quot;, &quot;w&quot;, &quot;e&quot;, &quot;r&quot;, &quot;t&quot;, &quot;y&quot;, &quot;u&quot;, &quot;i&quot;, &quot;o&quot;, &quot;p&quot;, &quot;a&quot;, &quot;s&quot;, &quot;d&quot;, &quot;f&quot;, &quot;g&quot;, &quot;h&quot;, &quot;j&quot;, &quot;k&quot;, &quot;l&quot;, &quot;z&quot;, &quot;x&quot;, &quot;c&quot;, &quot;v&quot;, &quot;b&quot;, &quot;n&quot;, &quot;m&quot;];&amp;#10;&amp;#10;" valType="extendedCode"/>
+        <Param name="Begin JS Experiment" updates="constant" val="allLetters = [&quot;l&quot;, &quot;r&quot;, &quot;t&quot;, &quot;y&quot;, &quot;u&quot;, &quot;o&quot;, &quot;p&quot;,&quot;s&quot;];&amp;#10;&amp;#10;&amp;#10;" valType="extendedCode"/>
+        <Param name="Begin JS Routine" updates="constant" val="textbox.refresh();&amp;#10;&amp;#10;modify = false;&amp;#10;textFill = &quot;&quot;;&amp;#10;&amp;#10;&amp;#10;textClick = 0;" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="#textbox.refresh()&amp;#10;&amp;#10;&amp;#10;textFill = ''" valType="extendedCode"/>
+        <Param name="Code Type" updates="None" val="Both" valType="str"/>
+        <Param name="Each Frame" updates="constant" val="&amp;#10;if 'escape' in keys:&amp;#10;    core.quit()  # So you can quit&amp;#10;else:&amp;#10;    if keys:&amp;#10;        if keys[0] == 'space':&amp;#10;            textFill += ' '  # Adds a space instead of 'space'&amp;#10;        elif keys[0] == 'backspace':&amp;#10;            textFill = textFill[:-1]  # Deletes&amp;#10;        elif keys[0] == 'minus':&amp;#10;            textFill += '-' &amp;#10;        elif keys[0] in allLetters:&amp;#10;            textFill+=keys[0]  # Adds character to text if in alphabet.&amp;#10;        elif &quot;lshift&quot; in keys or &quot;rshift&quot; in keys:&amp;#10;            mod&amp;#10;        textbox.setText(textFill)  # Set new text on screen&amp;#10;" valType="extendedCode"/>
+        <Param name="Each JS Frame" updates="constant" val="var _pj;&amp;#10;function _pj_snippets(container) {&amp;#10;    function in_es6(left, right) {&amp;#10;        if (((right instanceof Array) || ((typeof right) === &quot;string&quot;))) {&amp;#10;            return (right.indexOf(left) &gt; (- 1));&amp;#10;        } else {&amp;#10;            if (((right instanceof Map) || (right instanceof Set) || (right instanceof WeakMap) || (right instanceof WeakSet))) {&amp;#10;                return right.has(left);&amp;#10;            } else {&amp;#10;                return (left in right);&amp;#10;            }&amp;#10;        }&amp;#10;    }&amp;#10;    container[&quot;in_es6&quot;] = in_es6;&amp;#10;    return container;&amp;#10;}&amp;#10;_pj = {};&amp;#10;_pj_snippets(_pj);&amp;#10;&amp;#10;keys = psychoJS.eventManager.getKeys();&amp;#10;if (keys.length) {&amp;#10;    if (_pj.in_es6(&quot;escape&quot;, keys)) {&amp;#10;        core.quit();&amp;#10;    } else {&amp;#10;        if (keys) {&amp;#10;            if ((keys[0] === &quot;space&quot;)) {&amp;#10;                textFill += &quot;&quot;;&amp;#10;            } else {&amp;#10;                if ((keys[0] === &quot;backspace&quot;)) {&amp;#10;                    textFill = textFill.slice(0, (- 1));&amp;#10;                } else {&amp;#10;                    if ((_pj.in_es6(keys[0], allLetters))) {&amp;#10;                        textFill += &quot;&quot;;&amp;#10;                    } else {&amp;#10;                        if ((_pj.in_es6(&quot;lshift&quot;, keys) || _pj.in_es6(&quot;rshift&quot;, keys))) {&amp;#10;                            modify = true;&amp;#10;                        } else {&amp;#10;                            if ((modify === false)) {&amp;#10;                                textFill += keys[0];&amp;#10;                            }&amp;#10;                        }&amp;#10;                    }&amp;#10;                }&amp;#10;            }&amp;#10;        }&amp;#10;        textbox.setText(textFill);&amp;#10;    }&amp;#10;}&amp;#10;&amp;#10;    &amp;#10;    &amp;#10;_pj = {};&amp;#10;_pj_snippets(_pj);&amp;#10;if ((((keys.length &amp;&amp; modify) &amp;&amp; (! _pj.in_es6(&quot;rshift&quot;, keys))) &amp;&amp; (! _pj.in_es6(&quot;lshift&quot;, keys)))) {&amp;#10;    textFill += keys[0].toUpperCase(); &amp;#10;    modify = false;&amp;#10;}&amp;#10;&amp;#10;&amp;#10;&amp;#10;if (((keys.length) &amp;&amp; (textClick === 0))) {&amp;#10;    sliderClick = t;&amp;#10;} else {&amp;#10;    if ((sliderClick === 0)) {&amp;#10;    } else {&amp;#10;        if ((t &gt; (textClick + 5)) &amp;&amp; textFill.length &gt;= 1) {&amp;#10;            continueRoutine = false;&amp;#10;        }&amp;#10;    }&amp;#10;}&amp;#10;&amp;#10;&amp;#10;&amp;#10;&amp;#10;&amp;#10;&amp;#10;" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Routine" updates="constant" val="psychoJS.experiment.addData(&quot;subjResponse&quot;, textFill);&amp;#10;" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="thisExp.addData('subjResponse', textFill)" valType="extendedCode"/>
+        <Param name="disabled" updates="None" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="code" valType="code"/>
+      </CodeComponent>
+      <SliderComponent name="slider">
+        <Param name="borderColor" updates="constant" val="White" valType="color"/>
+        <Param name="color" updates="constant" val="LightGray" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="fillColor" updates="constant" val="Red" valType="color"/>
+        <Param name="flip" updates="constant" val="False" valType="bool"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="forceEndRoutine" updates="constant" val="False" valType="bool"/>
+        <Param name="granularity" updates="constant" val="0" valType="num"/>
+        <Param name="initVal" updates="None" val="" valType="code"/>
+        <Param name="labels" updates="constant" val="" valType="list"/>
+        <Param name="letterHeight" updates="constant" val="0.05" valType="num"/>
+        <Param name="name" updates="None" val="slider" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, -0.3)" valType="list"/>
+        <Param name="readOnly" updates="constant" val="False" valType="bool"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(1.0, 0.03)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="condition" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="storeHistory" updates="constant" val="False" valType="bool"/>
+        <Param name="storeRating" updates="constant" val="True" valType="bool"/>
+        <Param name="storeRatingTime" updates="constant" val="True" valType="bool"/>
+        <Param name="styleTweaks" updates="constant" val="()" valType="list"/>
+        <Param name="styles" updates="constant" val="radio" valType="str"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="ticks" updates="constant" val="(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)" valType="list"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </SliderComponent>
+      <MouseComponent name="mouse">
+        <Param name="clickable" updates="constant" val="image_0, image_1, image_2, image_3, image_4, image_5, image_6, image_7, image_8, image_9" valType="list"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutineOnPress" updates="constant" val="valid click" valType="str"/>
+        <Param name="name" updates="None" val="mouse" valType="code"/>
+        <Param name="newClicksOnly" updates="constant" val="True" valType="bool"/>
+        <Param name="saveMouseState" updates="None" val="final" valType="str"/>
+        <Param name="saveParamsClickable" updates="constant" val="name," valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.5" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="False" valType="bool"/>
+        <Param name="timeRelativeTo" updates="constant" val="mouse onset" valType="str"/>
+      </MouseComponent>
+    </Routine>
+    <Routine name="Instructions1">
+      <TextComponent name="text">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.05" valType="num"/>
+        <Param name="name" updates="None" val="text" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="Welcome! &amp;#10;&amp;#10;In this study, we ask you to identify a target image in a set of 10 images, based on a description.&amp;#10;" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_2">
+        <Param name="allowedKeys" updates="constant" val="'space'" valType="list"/>
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="key_resp_2" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+      <TextComponent name="text_space">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.03" valType="num"/>
+        <Param name="name" updates="None" val="text_space" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, -0.46)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="Press ‘space’ to go on" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="Instructions2">
+      <TextComponent name="text_2">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.05" valType="num"/>
+        <Param name="name" updates="None" val="text_2" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="You will always see 10 images. Above them, there will be a description of the target. &amp;#10;&amp;#10;We ask you to click on the target image. " valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_3">
+        <Param name="allowedKeys" updates="constant" val="'space'" valType="list"/>
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="key_resp_3" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+      <TextComponent name="text_space2">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.03" valType="num"/>
+        <Param name="name" updates="None" val="text_space2" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, -0.46)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="Press ‘space’ to go on" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="Example">
+      <TextComponent name="text_example">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.04" valType="num"/>
+        <Param name="name" updates="None" val="text_example" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0.3)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="For example, in this case, the target is the fourth image in the first row. You have to click on it.&amp;#10;&amp;#10;“The purple jelly fish”&amp;#10;" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+      <TextComponent name="text_space3">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.03" valType="num"/>
+        <Param name="name" updates="None" val="text_space3" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, -0.46)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="Press ‘space’ to go on" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+      <ImageComponent name="ex2">
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="constant" val="Example/img1.jpg" valType="file"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="" valType="str"/>
+        <Param name="name" updates="None" val="ex2" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(-0.25, 0.1)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(0.2, 0.2)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="num"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+      <ImageComponent name="ex3">
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="constant" val="Example/img2.jpg" valType="file"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="" valType="str"/>
+        <Param name="name" updates="None" val="ex3" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0.1)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(0.2, 0.2)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="num"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+      <ImageComponent name="ex4">
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="constant" val="Example/img3.jpg" valType="file"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="" valType="str"/>
+        <Param name="name" updates="None" val="ex4" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0.25, 0.1)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(0.2, 0.2)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="num"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+      <ImageComponent name="ex5">
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="constant" val="Example/img4.jpg" valType="file"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="" valType="str"/>
+        <Param name="name" updates="None" val="ex5" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0.5, 0.1)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(0.2, 0.2)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="num"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+      <ImageComponent name="ex6">
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="constant" val="Example/img5.jpg" valType="file"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="" valType="str"/>
+        <Param name="name" updates="None" val="ex6" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(-0.5, -0.2)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(0.2, 0.2)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="num"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+      <ImageComponent name="ex7">
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="constant" val="Example/img6.jpg" valType="file"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="" valType="str"/>
+        <Param name="name" updates="None" val="ex7" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(-0.25, -0.2)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(0.2, 0.2)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="num"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+      <ImageComponent name="ex8">
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="constant" val="Example/img7.jpg" valType="file"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="" valType="str"/>
+        <Param name="name" updates="None" val="ex8" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, -0.2)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(0.2, 0.2)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="num"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+      <ImageComponent name="ex9">
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="constant" val="Example/img8.jpg" valType="file"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="" valType="str"/>
+        <Param name="name" updates="None" val="ex9" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0.25, -0.2)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(0.2, 0.2)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="num"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+      <ImageComponent name="ex10">
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="constant" val="Example/img9.jpg" valType="file"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="" valType="str"/>
+        <Param name="name" updates="None" val="ex10" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0.5, -0.2)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(0.2, 0.2)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="num"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+      <MouseComponent name="mouse_2">
+        <Param name="clickable" updates="constant" val="ex4" valType="list"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutineOnPress" updates="constant" val="valid click" valType="str"/>
+        <Param name="name" updates="None" val="mouse_2" valType="code"/>
+        <Param name="newClicksOnly" updates="constant" val="True" valType="bool"/>
+        <Param name="saveMouseState" updates="None" val="final" valType="str"/>
+        <Param name="saveParamsClickable" updates="constant" val="name," valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="False" valType="bool"/>
+        <Param name="timeRelativeTo" updates="constant" val="mouse onset" valType="str"/>
+      </MouseComponent>
+      <ImageComponent name="ex1">
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="constant" val="Example/img0.jpg" valType="file"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="" valType="str"/>
+        <Param name="name" updates="None" val="ex1" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(-0.5, 0.1)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(0.2, 0.2)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="num"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+    </Routine>
+    <Routine name="Warning">
+      <TextComponent name="text_3">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.05" valType="num"/>
+        <Param name="name" updates="None" val="text_3" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="Some cases can be harder than others, or without a clear answer.&amp;#10;&amp;#10;Don't worry.&amp;#10;&amp;#10;Reply with what you think is the most plausible answer." valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_5">
+        <Param name="allowedKeys" updates="constant" val="'space'" valType="list"/>
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="key_resp_5" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+      <TextComponent name="text_space4">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.03" valType="num"/>
+        <Param name="name" updates="None" val="text_space4" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, -0.46)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="Press ‘space’ to go on" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="Start">
+      <TextComponent name="start">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.07" valType="num"/>
+        <Param name="name" updates="None" val="start" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="Let's start!" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_6">
+        <Param name="allowedKeys" updates="constant" val="'space'" valType="list"/>
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="key_resp_6" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+      <TextComponent name="text_space5">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.03" valType="num"/>
+        <Param name="name" updates="None" val="text_space5" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, -0.46)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="Press ‘space’ to go on" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="Code">
+      <TextComponent name="instructions_code">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.03" valType="num"/>
+        <Param name="name" updates="None" val="instructions_code" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0.2)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="Thank your for completing our study!&amp;#10;&amp;#10;Below you see your personal verification code.&amp;#10;&amp;#10;Please write it down now and enter it into the field &quot;verification code&quot; in the Amazon Mechanical Turk portal for our study (where you found the link to start the study).&amp;#10;&amp;#10;Please note that we can only verify that you completed the study if you enter this code there. If you do not enter this code, we will not be able to compensate you for your participation.&amp;#10;&amp;#10;After you have written down your code you can finish the study by pressing ‘space’. &amp;#10;&amp;#10;Thank you again!" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+      <CodeComponent name="code_2">
+        <Param name="Before Experiment" updates="constant" val="import string&amp;#10;import random&amp;#10;def id_generator(size=6, chars=string.ascii_uppercase + string.digits):&amp;#10;    return ''.join(random.choice(chars) for _ in range(size))&amp;#10;    &amp;#10;mturk = id_generator()" valType="extendedCode"/>
+        <Param name="Before JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Experiment" updates="constant" val="&amp;#10;function getRandomInt(min, max) {&amp;#10;  min = Math.ceil(min);&amp;#10;  max = Math.floor(max);&amp;#10;  return Math.floor(Math.random() * (max - min)) + min; //The maximum is exclusive and the minimum is inclusive&amp;#10;}&amp;#10;&amp;#10;mturk = getRandomInt(1000000, 9999999)&amp;#10;&amp;#10;psychoJS.experiment.addData(&quot;mturk&quot;, mturk)&amp;#10;" valType="extendedCode"/>
+        <Param name="Begin JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Code Type" updates="None" val="JS" valType="str"/>
+        <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Each JS Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="code_2" valType="code"/>
+      </CodeComponent>
+      <TextComponent name="text_space6">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.03" valType="num"/>
+        <Param name="name" updates="None" val="text_space6" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, -0.46)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="Press ‘space’ to go on" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+      <TextComponent name="text_x_code">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="num"/>
+        <Param name="name" updates="None" val="text_x_code" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, -0.2)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="$mturk" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_7">
+        <Param name="allowedKeys" updates="constant" val="'space'" valType="list"/>
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="key_resp_7" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="payment">
+      <TextComponent name="payment_warn">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.05" valType="num"/>
+        <Param name="name" updates="None" val="payment_warn" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="Please, note that the task contains some items which we use to check the quality of your responses. &amp;#10;&amp;#10;If these items indicate that responses were given randomly or without paying attention to the task, we will reject the submitted assignment.&amp;#10;&amp;#10;" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp">
+        <Param name="allowedKeys" updates="constant" val="'space'" valType="list"/>
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="key_resp" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+      <TextComponent name="text_space7">
+        <Param name="color" updates="constant" val="white" valType="color"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="None" valType="str"/>
+        <Param name="font" updates="constant" val="Open Sans" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.03" valType="num"/>
+        <Param name="name" updates="None" val="text_space7" valType="code"/>
+        <Param name="opacity" updates="constant" val="" valType="num"/>
+        <Param name="ori" updates="constant" val="0" valType="num"/>
+        <Param name="pos" updates="constant" val="(0, -0.46)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="Press ‘space’ to go on" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="num"/>
+      </TextComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="Instructions1"/>
+    <Routine name="Instructions2"/>
+    <Routine name="Example"/>
+    <Routine name="Warning"/>
+    <Routine name="payment"/>
+    <Routine name="Start"/>
+    <LoopInitiator loopType="TrialHandler" name="trials">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[OrderedDict([('caption', 'the transition image into the one of the lady in blue from the one where bags where hang up'), ('class_caption', 'H'), ('model_guessed', 0.0), ('target_idx', 7), ('image_set', 'MSR-VTT-videoTestVideo_video7047-shot1_0'), ('img1', 'Images/MSR-VTT-videoTestVideo_video7047-shot1_0/img0.jpg'), ('img2', 'Images/MSR-VTT-videoTestVideo_video7047-shot1_0/img1.jpg'), ('img3', 'Images/MSR-VTT-videoTestVideo_video7047-shot1_0/img27.jpg'), ('img4', 'Images/MSR-VTT-videoTestVideo_video7047-shot1_0/img32.jpg'), ('img5', 'Images/MSR-VTT-videoTestVideo_video7047-shot1_0/img33.jpg'), ('img6', 'Images/MSR-VTT-videoTestVideo_video7047-shot1_0/img39.jpg'), ('img7', 'Images/MSR-VTT-videoTestVideo_video7047-shot1_0/img82.jpg'), ('img8', 'Images/MSR-VTT-videoTestVideo_video7047-shot1_0/img112.jpg'), ('img9', 'Images/MSR-VTT-videoTestVideo_video7047-shot1_0/img113.jpg'), ('img10', 'Images/MSR-VTT-videoTestVideo_video7047-shot1_0/img123.jpg'), ('Q_id', 1.0), ('block', 1.0), ('is_check', 0)]), OrderedDict([('caption', &quot;Horse is on left side facing the right and looking straight ahead. Can only see the man's legs behind the horse while upper body is obstructed&quot;), ('class_caption', 'H'), ('model_guessed', 0.0), ('target_idx', 7), ('image_set', 'MSR-VTT-videoTestVideo_video9858-shot1_1'), ('img1', 'Images/MSR-VTT-videoTestVideo_video9858-shot1_1/img204.jpg'), ('img2', 'Images/MSR-VTT-videoTestVideo_video9858-shot1_1/img216.jpg'), ('img3', 'Images/MSR-VTT-videoTestVideo_video9858-shot1_1/img239.jpg'), ('img4', 'Images/MSR-VTT-videoTestVideo_video9858-shot1_1/img248.jpg'), ('img5', 'Images/MSR-VTT-videoTestVideo_video9858-shot1_1/img256.jpg'), ('img6', 'Images/MSR-VTT-videoTestVideo_video9858-shot1_1/img267.jpg'), ('img7', 'Images/MSR-VTT-videoTestVideo_video9858-shot1_1/img313.jpg'), ('img8', 'Images/MSR-VTT-videoTestVideo_video9858-shot1_1/img341.jpg'), ('img9', 'Images/MSR-VTT-videoTestVideo_video9858-shot1_1/img348.jpg'), ('img10', 'Images/MSR-VTT-videoTestVideo_video9858-shot1_1/img351.jpg'), ('Q_id', 38.0), ('block', 1.0), ('is_check', 0)]), OrderedDict([('caption', &quot;A bald man's head covers a  lot of the crowd and signs in the background.&quot;), ('class_caption', 'H'), ('model_guessed', 0.0), ('target_idx', 4), ('image_set', 'MSR-VTT-videoTestVideo_video7522-shot8_0'), ('img1', 'Images/MSR-VTT-videoTestVideo_video7522-shot8_0/img0.jpg'), ('img2', 'Images/MSR-VTT-videoTestVideo_video7522-shot8_0/img1.jpg'), ('img3', 'Images/MSR-VTT-videoTestVideo_video7522-shot8_0/img2.jpg'), ('img4', 'Images/MSR-VTT-videoTestVideo_video7522-shot8_0/img3.jpg'), ('img5', 'Images/MSR-VTT-videoTestVideo_video7522-shot8_0/img4.jpg'), ('img6', 'Images/MSR-VTT-videoTestVideo_video7522-shot8_0/img5.jpg'), ('img7', 'Images/MSR-VTT-videoTestVideo_video7522-shot8_0/img6.jpg'), ('img8', 'Images/MSR-VTT-videoTestVideo_video7522-shot8_0/img7.jpg'), ('img9', 'Images/MSR-VTT-videoTestVideo_video7522-shot8_0/img8.jpg'), ('img10', 'Images/MSR-VTT-videoTestVideo_video7522-shot8_0/img9.jpg'), ('Q_id', 39.0), ('block', 1.0), ('is_check', 0)]), OrderedDict([('caption', 'The white substance has not been poured yet and the index finger is prominent.'), ('class_caption', 'H'), ('model_guessed', 0.0), ('target_idx', 1), ('image_set', 'YouCook-video0036-shot0_0'), ('img1', 'Images/YouCook-video0036-shot0_0/img0.jpg'), ('img2', 'Images/YouCook-video0036-shot0_0/img21.jpg'), ('img3', 'Images/YouCook-video0036-shot0_0/img49.jpg'), ('img4', 'Images/YouCook-video0036-shot0_0/img111.jpg'), ('img5', 'Images/YouCook-video0036-shot0_0/img116.jpg'), ('img6', 'Images/YouCook-video0036-shot0_0/img220.jpg'), ('img7', 'Images/YouCook-video0036-shot0_0/img241.jpg'), ('img8', 'Images/YouCook-video0036-shot0_0/img247.jpg'), ('img9', 'Images/YouCook-video0036-shot0_0/img270.jpg'), ('img10', 'Images/YouCook-video0036-shot0_0/img288.jpg'), ('Q_id', 41.0), ('block', 1.0), ('is_check', 0)]), OrderedDict([('caption', &quot;The red dog's head is just starting to get cut off on the far right  of the image. &quot;), ('class_caption', 'H'), ('model_guessed', 0.0), ('target_idx', 4), ('image_set', 'video-storytelling-videobirthday__amwPjAcoC8-shot61_4'), ('img1', 'Images/video-storytelling-videobirthday__amwPjAcoC8-shot61_4/img133.jpg'), ('img2', 'Images/video-storytelling-videobirthday__amwPjAcoC8-shot61_4/img135.jpg'), ('img3', 'Images/video-storytelling-videobirthday__amwPjAcoC8-shot61_4/img138.jpg'), ('img4', 'Images/video-storytelling-videobirthday__amwPjAcoC8-shot61_4/img140.jpg'), ('img5', 'Images/video-storytelling-videobirthday__amwPjAcoC8-shot61_4/img142.jpg'), ('img6', 'Images/video-storytelling-videobirthday__amwPjAcoC8-shot61_4/img143.jpg'), ('img7', 'Images/video-storytelling-videobirthday__amwPjAcoC8-shot61_4/img145.jpg'), ('img8', 'Images/video-storytelling-videobirthday__amwPjAcoC8-shot61_4/img146.jpg'), ('img9', 'Images/video-storytelling-videobirthday__amwPjAcoC8-shot61_4/img147.jpg'), ('img10', 'Images/video-storytelling-videobirthday__amwPjAcoC8-shot61_4/img148.jpg'), ('Q_id', 42.0), ('block', 1.0), ('is_check', 0)]), OrderedDict([('caption', 'A smiling boy just begins to look towards the dog'), ('class_caption', 'H'), ('model_guessed', 0.0), ('target_idx', 7), ('image_set', 'video-storytelling-videobirthday__amwPjAcoC8-shot29_0'), ('img1', 'Images/video-storytelling-videobirthday__amwPjAcoC8-shot29_0/img0.jpg'), ('img2', 'Images/video-storytelling-videobirthday__amwPjAcoC8-shot29_0/img19.jpg'), ('img3', 'Images/video-storytelling-videobirthday__amwPjAcoC8-shot29_0/img56.jpg'), ('img4', 'Images/video-storytelling-videobirthday__amwPjAcoC8-shot29_0/img81.jpg'), ('img5', 'Images/video-storytelling-videobirthday__amwPjAcoC8-shot29_0/img86.jpg'), ('img6', 'Images/video-storytelling-videobirthday__amwPjAcoC8-shot29_0/img93.jpg'), ('img7', 'Images/video-storytelling-videobirthday__amwPjAcoC8-shot29_0/img105.jpg'), ('img8', 'Images/video-storytelling-videobirthday__amwPjAcoC8-shot29_0/img111.jpg'), ('img9', 'Images/video-storytelling-videobirthday__amwPjAcoC8-shot29_0/img119.jpg'), ('img10', 'Images/video-storytelling-videobirthday__amwPjAcoC8-shot29_0/img130.jpg'), ('Q_id', 43.0), ('block', 1.0), ('is_check', 0)]), OrderedDict([('caption', 'There is blurry text at the very bottom of the screen. Only one human head is visible, the heads in the photos in the upper corners are cut off by the upper edge .'), ('class_caption', 'H'), ('model_guessed', 0.0), ('target_idx', 5), ('image_set', 'MSR-VTT-videoTestVideo_video8454-shot1_1'), ('img1', 'Images/MSR-VTT-videoTestVideo_video8454-shot1_1/img86.jpg'), ('img2', 'Images/MSR-VTT-videoTestVideo_video8454-shot1_1/img87.jpg'), ('img3', 'Images/MSR-VTT-videoTestVideo_video8454-shot1_1/img88.jpg'), ('img4', 'Images/MSR-VTT-videoTestVideo_video8454-shot1_1/img89.jpg'), ('img5', 'Images/MSR-VTT-videoTestVideo_video8454-shot1_1/img147.jpg'), ('img6', 'Images/MSR-VTT-videoTestVideo_video8454-shot1_1/img148.jpg'), ('img7', 'Images/MSR-VTT-videoTestVideo_video8454-shot1_1/img152.jpg'), ('img8', 'Images/MSR-VTT-videoTestVideo_video8454-shot1_1/img156.jpg'), ('img9', 'Images/MSR-VTT-videoTestVideo_video8454-shot1_1/img159.jpg'), ('img10', 'Images/MSR-VTT-videoTestVideo_video8454-shot1_1/img172.jpg'), ('Q_id', 45.0), ('block', 1.0), ('is_check', 0)]), OrderedDict([('caption', 'The player in green has his left arm in the air as he is falling'), ('class_caption', 'H'), ('model_guessed', 0.0), ('target_idx', 4), ('image_set', 'MSR-VTT-videoTestVideo_video9823-shot3_1'), ('img1', 'Images/MSR-VTT-videoTestVideo_video9823-shot3_1/img17.jpg'), ('img2', 'Images/MSR-VTT-videoTestVideo_video9823-shot3_1/img18.jpg'), ('img3', 'Images/MSR-VTT-videoTestVideo_video9823-shot3_1/img19.jpg'), ('img4', 'Images/MSR-VTT-videoTestVideo_video9823-shot3_1/img20.jpg'), ('img5', 'Images/MSR-VTT-videoTestVideo_video9823-shot3_1/img21.jpg'), ('img6', 'Images/MSR-VTT-videoTestVideo_video9823-shot3_1/img24.jpg'), ('img7', 'Images/MSR-VTT-videoTestVideo_video9823-shot3_1/img27.jpg'), ('img8', 'Images/MSR-VTT-videoTestVideo_video9823-shot3_1/img28.jpg'), ('img9', 'Images/MSR-VTT-videoTestVideo_video9823-shot3_1/img30.jpg'), ('img10', 'Images/MSR-VTT-videoTestVideo_video9823-shot3_1/img31.jpg'), ('Q_id', 46.0), ('block', 1.0), ('is_check', 0)]), OrderedDict([('caption', 'There is just a tiny gap between the back of the girl on the left and the edge of the frame.'), ('class_caption', 'H'), ('model_guessed', 0.0), ('target_idx', 3), ('image_set', 'video-storytelling-videocamping_1OzbiB1TIWI-shot14_7'), ('img1', 'Images/video-storytelling-videocamping_1OzbiB1TIWI-shot14_7/img974.jpg'), ('img2', 'Images/video-storytelling-videocamping_1OzbiB1TIWI-shot14_7/img982.jpg'), ('img3', 'Images/video-storytelling-videocamping_1OzbiB1TIWI-shot14_7/img986.jpg'), ('img4', 'Images/video-storytelling-videocamping_1OzbiB1TIWI-shot14_7/img994.jpg'), ('img5', 'Images/video-storytelling-videocamping_1OzbiB1TIWI-shot14_7/img1001.jpg'), ('img6', 'Images/video-storytelling-videocamping_1OzbiB1TIWI-shot14_7/img1007.jpg'), ('img7', 'Images/video-storytelling-videocamping_1OzbiB1TIWI-shot14_7/img1024.jpg'), ('img8', 'Images/video-storytelling-videocamping_1OzbiB1TIWI-shot14_7/img1034.jpg'), ('img9', 'Images/video-storytelling-videocamping_1OzbiB1TIWI-shot14_7/img1037.jpg'), ('img10', 'Images/video-storytelling-videocamping_1OzbiB1TIWI-shot14_7/img1042.jpg'), ('Q_id', 47.0), ('block', 1.0), ('is_check', 0)]), OrderedDict([('caption', 'There are two green blurs and one purple blur that is almost cut off on the right side.'), ('class_caption', 'H'), ('model_guessed', 1.0), ('target_idx', 8), ('image_set', 'MSR-VTT-videoTestVideo_video7485-shot2_1'), ('img1', 'Images/MSR-VTT-videoTestVideo_video7485-shot2_1/img44.jpg'), ('img2', 'Images/MSR-VTT-videoTestVideo_video7485-shot2_1/img45.jpg'), ('img3', 'Images/MSR-VTT-videoTestVideo_video7485-shot2_1/img55.jpg'), ('img4', 'Images/MSR-VTT-videoTestVideo_video7485-shot2_1/img65.jpg'), ('img5', 'Images/MSR-VTT-videoTestVideo_video7485-shot2_1/img71.jpg'), ('img6', 'Images/MSR-VTT-videoTestVideo_video7485-shot2_1/img80.jpg'), ('img7', 'Images/MSR-VTT-videoTestVideo_video7485-shot2_1/img84.jpg'), ('img8', 'Images/MSR-VTT-videoTestVideo_video7485-shot2_1/img87.jpg'), ('img9', 'Images/MSR-VTT-videoTestVideo_video7485-shot2_1/img92.jpg'), ('img10', 'Images/MSR-VTT-videoTestVideo_video7485-shot2_1/img96.jpg'), ('Q_id', 48.0), ('block', 1.0), ('is_check', 0)]), OrderedDict([('caption', 'Picture where girl is touching her eye with her middle and ring fingers'), ('class_caption', 'H'), ('model_guessed', 0.0), ('target_idx', 8), ('image_set', 'MSR-VTT-videoTestVideo_video7996-shot2_0'), ('img1', 'Images/MSR-VTT-videoTestVideo_video7996-shot2_0/img0.jpg'), ('img2', 'Images/MSR-VTT-videoTestVideo_video7996-shot2_0/img2.jpg'), ('img3', 'Images/MSR-VTT-videoTestVideo_video7996-shot2_0/img6.jpg'), ('img4', 'Images/MSR-VTT-videoTestVideo_video7996-shot2_0/img10.jpg'), ('img5', 'Images/MSR-VTT-videoTestVideo_video7996-shot2_0/img16.jpg'), ('img6', 'Images/MSR-VTT-videoTestVideo_video7996-shot2_0/img22.jpg'), ('img7', 'Images/MSR-VTT-videoTestVideo_video7996-shot2_0/img49.jpg'), ('img8', 'Images/MSR-VTT-videoTestVideo_video7996-shot2_0/img56.jpg'), ('img9', 'Images/MSR-VTT-videoTestVideo_video7996-shot2_0/img89.jpg'), ('img10', 'Images/MSR-VTT-videoTestVideo_video7996-shot2_0/img101.jpg'), ('Q_id', 49.0), ('block', 1.0), ('is_check', 0)]), OrderedDict([('caption', 'The little boy has brought the green object away from his mouth and part of it is off the bottom part of the image. '), ('class_caption', 'H'), ('model_guessed', 0.0), ('target_idx', 8), ('image_set', 'MSR-VTT-videoTestVideo_video7542-shot9_0'), ('img1', 'Images/MSR-VTT-videoTestVideo_video7542-shot9_0/img0.jpg'), ('img2', 'Images/MSR-VTT-videoTestVideo_video7542-shot9_0/img5.jpg'), ('img3', 'Images/MSR-VTT-videoTestVideo_video7542-shot9_0/img11.jpg'), ('img4', 'Images/MSR-VTT-videoTestVideo_video7542-shot9_0/img16.jpg'), ('img5', 'Images/MSR-VTT-videoTestVideo_video7542-shot9_0/img32.jpg'), ('img6', 'Images/MSR-VTT-videoTestVideo_video7542-shot9_0/img45.jpg'), ('img7', 'Images/MSR-VTT-videoTestVideo_video7542-shot9_0/img48.jpg'), ('img8', 'Images/MSR-VTT-videoTestVideo_video7542-shot9_0/img52.jpg'), ('img9', 'Images/MSR-VTT-videoTestVideo_video7542-shot9_0/img65.jpg'), ('img10', 'Images/MSR-VTT-videoTestVideo_video7542-shot9_0/img70.jpg'), ('Q_id', 50.0), ('block', 1.0), ('is_check', 0)]), OrderedDict([('caption', 'A blurred hand is positioned about a little less than halfway in front of a metal tool above a bowl.'), ('class_caption', 'H'), ('model_guessed', 1.0), ('target_idx', 5), ('image_set', 'YouCook-video0063-shot17_1'), ('img1', 'Images/YouCook-video0063-shot17_1/img90.jpg'), ('img2', 'Images/YouCook-video0063-shot17_1/img97.jpg'), ('img3', 'Images/YouCook-video0063-shot17_1/img110.jpg'), ('img4', 'Images/YouCook-video0063-shot17_1/img112.jpg'), ('img5', 'Images/YouCook-video0063-shot17_1/img117.jpg'), ('img6', 'Images/YouCook-video0063-shot17_1/img125.jpg'), ('img7', 'Images/YouCook-video0063-shot17_1/img126.jpg'), ('img8', 'Images/YouCook-video0063-shot17_1/img132.jpg'), ('img9', 'Images/YouCook-video0063-shot17_1/img144.jpg'), ('img10', 'Images/YouCook-video0063-shot17_1/img146.jpg'), ('Q_id', 51.0), ('block', 1.0), ('is_check', 0)]), OrderedDict([('caption', &quot;The right exhaust can't be seen for the first time in the image.  You can start to see a brick object on the upper left corner of the image. &quot;), ('class_caption', 'H'), ('model_guessed', 0.0), ('target_idx', 7), ('image_set', 'MSR-VTT-videoTestVideo_video9975-shot1_0'), ('img1', 'Images/MSR-VTT-videoTestVideo_video9975-shot1_0/img0.jpg'), ('img2', 'Images/MSR-VTT-videoTestVideo_video9975-shot1_0/img5.jpg'), ('img3', 'Images/MSR-VTT-videoTestVideo_video9975-shot1_0/img16.jpg'), ('img4', 'Images/MSR-VTT-videoTestVideo_video9975-shot1_0/img25.jpg'), ('img5', 'Images/MSR-VTT-videoTestVideo_video9975-shot1_0/img50.jpg'), ('img6', 'Images/MSR-VTT-videoTestVideo_video9975-shot1_0/img63.jpg'), ('img7', 'Images/MSR-VTT-videoTestVideo_video9975-shot1_0/img67.jpg'), ('img8', 'Images/MSR-VTT-videoTestVideo_video9975-shot1_0/img80.jpg'), ('img9', 'Images/MSR-VTT-videoTestVideo_video9975-shot1_0/img85.jpg'), ('img10', 'Images/MSR-VTT-videoTestVideo_video9975-shot1_0/img89.jpg'), ('Q_id', 52.0), ('block', 1.0), ('is_check', 0)]), OrderedDict([('caption', 'The empty silver bowl is centered, and just a tiny edge of the bowl below it can be seen.'), ('class_caption', 'H'), ('model_guessed', 1.0), ('target_idx', 8), ('image_set', 'MSR-VTT-videoTestVideo_video8062-shot1_2'), ('img1', 'Images/MSR-VTT-videoTestVideo_video8062-shot1_2/img372.jpg'), ('img2', 'Images/MSR-VTT-videoTestVideo_video8062-shot1_2/img375.jpg'), ('img3', 'Images/MSR-VTT-videoTestVideo_video8062-shot1_2/img387.jpg'), ('img4', 'Images/MSR-VTT-videoTestVideo_video8062-shot1_2/img394.jpg'), ('img5', 'Images/MSR-VTT-videoTestVideo_video8062-shot1_2/img401.jpg'), ('img6', 'Images/MSR-VTT-videoTestVideo_video8062-shot1_2/img455.jpg'), ('img7', 'Images/MSR-VTT-videoTestVideo_video8062-shot1_2/img471.jpg'), ('img8', 'Images/MSR-VTT-videoTestVideo_video8062-shot1_2/img473.jpg'), ('img9', 'Images/MSR-VTT-videoTestVideo_video8062-shot1_2/img476.jpg'), ('img10', 'Images/MSR-VTT-videoTestVideo_video8062-shot1_2/img492.jpg'), ('Q_id', 53.0), ('block', 1.0), ('is_check', 0)]), OrderedDict([('caption', &quot;The woman's head rests on her hand and her eyes are mid-blink, almost entirely closed&quot;), ('class_caption', 'H'), ('model_guessed', 1.0), ('target_idx', 1), ('image_set', 'video-storytelling-videocamping_dBXYM3dQTSo-shot75_2'), ('img1', 'Images/video-storytelling-videocamping_dBXYM3dQTSo-shot75_2/img352.jpg'), ('img2', 'Images/video-storytelling-videocamping_dBXYM3dQTSo-shot75_2/img380.jpg'), ('img3', 'Images/video-storytelling-videocamping_dBXYM3dQTSo-shot75_2/img388.jpg'), ('img4', 'Images/video-storytelling-videocamping_dBXYM3dQTSo-shot75_2/img404.jpg'), ('img5', 'Images/video-storytelling-videocamping_dBXYM3dQTSo-shot75_2/img410.jpg'), ('img6', 'Images/video-storytelling-videocamping_dBXYM3dQTSo-shot75_2/img427.jpg'), ('img7', 'Images/video-storytelling-videocamping_dBXYM3dQTSo-shot75_2/img441.jpg'), ('img8', 'Images/video-storytelling-videocamping_dBXYM3dQTSo-shot75_2/img481.jpg'), ('img9', 'Images/video-storytelling-videocamping_dBXYM3dQTSo-shot75_2/img503.jpg'), ('img10', 'Images/video-storytelling-videocamping_dBXYM3dQTSo-shot75_2/img531.jpg'), ('Q_id', 36.0), ('block', 1.0), ('is_check', 0)]), OrderedDict([('caption', &quot;A spoon is mixing in a bowl. You can see a woman's pointer finger and thumb.&quot;), ('class_caption', 'H'), ('model_guessed', 0.0), ('target_idx', 1), ('image_set', 'YouCook-video0097-shot9_0'), ('img1', 'Images/YouCook-video0097-shot9_0/img0.jpg'), ('img2', 'Images/YouCook-video0097-shot9_0/img11.jpg'), ('img3', 'Images/YouCook-video0097-shot9_0/img48.jpg'), ('img4', 'Images/YouCook-video0097-shot9_0/img51.jpg'), ('img5', 'Images/YouCook-video0097-shot9_0/img54.jpg'), ('img6', 'Images/YouCook-video0097-shot9_0/img57.jpg'), ('img7', 'Images/YouCook-video0097-shot9_0/img58.jpg'), ('img8', 'Images/YouCook-video0097-shot9_0/img59.jpg'), ('img9', 'Images/YouCook-video0097-shot9_0/img62.jpg'), ('img10', 'Images/YouCook-video0097-shot9_0/img76.jpg'), ('Q_id', 54.0), ('block', 1.0), ('is_check', 0)]), OrderedDict([('caption', 'The image is slightly double-exposed, so the central woman appears to have a big pale nose.'), ('class_caption', 'H'), ('model_guessed', 0.0), ('target_idx', 4), ('image_set', 'MSR-VTT-videoTestVideo_video8954-shot1_0'), ('img1', 'Images/MSR-VTT-videoTestVideo_video8954-shot1_0/img0.jpg'), ('img2', 'Images/MSR-VTT-videoTestVideo_video8954-shot1_0/img2.jpg'), ('img3', 'Images/MSR-VTT-videoTestVideo_video8954-shot1_0/img8.jpg'), ('img4', 'Images/MSR-VTT-videoTestVideo_video8954-shot1_0/img15.jpg'), ('img5', 'Images/MSR-VTT-videoTestVideo_video8954-shot1_0/img20.jpg'), ('img6', 'Images/MSR-VTT-videoTestVideo_video8954-shot1_0/img21.jpg'), ('img7', 'Images/MSR-VTT-videoTestVideo_video8954-shot1_0/img22.jpg'), ('img8', 'Images/MSR-VTT-videoTestVideo_video8954-shot1_0/img24.jpg'), ('img9', 'Images/MSR-VTT-videoTestVideo_video8954-shot1_0/img26.jpg'), ('img10', 'Images/MSR-VTT-videoTestVideo_video8954-shot1_0/img27.jpg'), ('Q_id', 56.0), ('block', 1.0), ('is_check', 0)]), OrderedDict([('caption', 'A person completely a slam dunk in a gym and ball is headed back to the ground. '), ('class_caption', 'H'), ('model_guessed', 0.0), ('target_idx', 2), ('image_set', 'MSR-VTT-videoTestVideo_video8715-shot0_0'), ('img1', 'Images/MSR-VTT-videoTestVideo_video8715-shot0_0/img0.jpg'), ('img2', 'Images/MSR-VTT-videoTestVideo_video8715-shot0_0/img7.jpg'), ('img3', 'Images/MSR-VTT-videoTestVideo_video8715-shot0_0/img15.jpg'), ('img4', 'Images/MSR-VTT-videoTestVideo_video8715-shot0_0/img19.jpg'), ('img5', 'Images/MSR-VTT-videoTestVideo_video8715-shot0_0/img28.jpg'), ('img6', 'Images/MSR-VTT-videoTestVideo_video8715-shot0_0/img33.jpg'), ('img7', 'Images/MSR-VTT-videoTestVideo_video8715-shot0_0/img35.jpg'), ('img8', 'Images/MSR-VTT-videoTestVideo_video8715-shot0_0/img39.jpg'), ('img9', 'Images/MSR-VTT-videoTestVideo_video8715-shot0_0/img47.jpg'), ('img10', 'Images/MSR-VTT-videoTestVideo_video8715-shot0_0/img50.jpg'), ('Q_id', 57.0), ('block', 1.0), ('is_check', 0)]), OrderedDict([('caption', 'The middle male dancer has his arms behind his back.'), ('class_caption', 'H'), ('model_guessed', 0.0), ('target_idx', 7), ('image_set', 'MSR-VTT-videoTestVideo_video9044-shot1_0'), ('img1', 'Images/MSR-VTT-videoTestVideo_video9044-shot1_0/img0.jpg'), ('img2', 'Images/MSR-VTT-videoTestVideo_video9044-shot1_0/img3.jpg'), ('img3', 'Images/MSR-VTT-videoTestVideo_video9044-shot1_0/img6.jpg'), ('img4', 'Images/MSR-VTT-videoTestVideo_video9044-shot1_0/img8.jpg'), ('img5', 'Images/MSR-VTT-videoTestVideo_video9044-shot1_0/img11.jpg'), ('img6', 'Images/MSR-VTT-videoTestVideo_video9044-shot1_0/img15.jpg'), ('img7', 'Images/MSR-VTT-videoTestVideo_video9044-shot1_0/img21.jpg'), ('img8', 'Images/MSR-VTT-videoTestVideo_video9044-shot1_0/img31.jpg'), ('img9', 'Images/MSR-VTT-videoTestVideo_video9044-shot1_0/img41.jpg'), ('img10', 'Images/MSR-VTT-videoTestVideo_video9044-shot1_0/img54.jpg'), ('Q_id', 59.0), ('block', 1.0), ('is_check', 0)]), OrderedDict([('caption', 'The top bread is put onto the sandwich.'), ('class_caption', 'H'), ('model_guessed', 0.0), ('target_idx', 9), ('image_set', 'YouCook-video0024-shot5_0'), ('img1', 'Images/YouCook-video0024-shot5_0/img19.jpg'), ('img2', 'Images/YouCook-video0024-shot5_0/img56.jpg'), ('img3', 'Images/YouCook-video0024-shot5_0/img114.jpg'), ('img4', 'Images/YouCook-video0024-shot5_0/img168.jpg'), ('img5', 'Images/YouCook-video0024-shot5_0/img174.jpg'), ('img6', 'Images/YouCook-video0024-shot5_0/img187.jpg'), ('img7', 'Images/YouCook-video0024-shot5_0/img276.jpg'), ('img8', 'Images/YouCook-video0024-shot5_0/img285.jpg'), ('img9', 'Images/YouCook-video0024-shot5_0/img312.jpg'), ('img10', 'Images/YouCook-video0024-shot5_0/img327.jpg'), ('Q_id', 60.0), ('block', 1.0), ('is_check', 0)]), OrderedDict([('caption', 'front driver tire about to drive up on sidewak'), ('class_caption', 'H'), ('model_guessed', 0.0), ('target_idx', 8), ('image_set', 'MSR-VTT-videoTestVideo_video8468-shot1_0'), ('img1', 'Images/MSR-VTT-videoTestVideo_video8468-shot1_0/img0.jpg'), ('img2', 'Images/MSR-VTT-videoTestVideo_video8468-shot1_0/img7.jpg'), ('img3', 'Images/MSR-VTT-videoTestVideo_video8468-shot1_0/img9.jpg'), ('img4', 'Images/MSR-VTT-videoTestVideo_video8468-shot1_0/img22.jpg'), ('img5', 'Images/MSR-VTT-videoTestVideo_video8468-shot1_0/img39.jpg'), ('img6', 'Images/MSR-VTT-videoTestVideo_video8468-shot1_0/img47.jpg'), ('img7', 'Images/MSR-VTT-videoTestVideo_video8468-shot1_0/img63.jpg'), ('img8', 'Images/MSR-VTT-videoTestVideo_video8468-shot1_0/img67.jpg'), ('img9', 'Images/MSR-VTT-videoTestVideo_video8468-shot1_0/img83.jpg'), ('img10', 'Images/MSR-VTT-videoTestVideo_video8468-shot1_0/img86.jpg'), ('Q_id', 61.0), ('block', 1.0), ('is_check', 0)]), OrderedDict([('caption', &quot;Part of the right side (picture left side) of the woman's face is covered by the shoulder of the person in front of her.  Her teeth are bared and you can see both top and bottom teeth clearly. &quot;), ('class_caption', 'H'), ('model_guessed', 0.0), ('target_idx', 5), ('image_set', 'MSR-VTT-videoTestVideo_video7051-shot3_0'), ('img1', 'Images/MSR-VTT-videoTestVideo_video7051-shot3_0/img0.jpg'), ('img2', 'Images/MSR-VTT-videoTestVideo_video7051-shot3_0/img2.jpg'), ('img3', 'Images/MSR-VTT-videoTestVideo_video7051-shot3_0/img5.jpg'), ('img4', 'Images/MSR-VTT-videoTestVideo_video7051-shot3_0/img8.jpg'), ('img5', 'Images/MSR-VTT-videoTestVideo_video7051-shot3_0/img9.jpg'), ('img6', 'Images/MSR-VTT-videoTestVideo_video7051-shot3_0/img14.jpg'), ('img7', 'Images/MSR-VTT-videoTestVideo_video7051-shot3_0/img19.jpg'), ('img8', 'Images/MSR-VTT-videoTestVideo_video7051-shot3_0/img23.jpg'), ('img9', 'Images/MSR-VTT-videoTestVideo_video7051-shot3_0/img25.jpg'), ('img10', 'Images/MSR-VTT-videoTestVideo_video7051-shot3_0/img28.jpg'), ('Q_id', 62.0), ('block', 1.0), ('is_check', 0)]), OrderedDict([('caption', '8 people are visible on a snowy mountainside in a mostly clear photo'), ('class_caption', 'H'), ('model_guessed', 1.0), ('target_idx', 1), ('image_set', 'MSR-VTT-videoTestVideo_video7564-shot1_0'), ('img1', 'Images/MSR-VTT-videoTestVideo_video7564-shot1_0/img0.jpg'), ('img2', 'Images/MSR-VTT-videoTestVideo_video7564-shot1_0/img7.jpg'), ('img3', 'Images/MSR-VTT-videoTestVideo_video7564-shot1_0/img10.jpg'), ('img4', 'Images/MSR-VTT-videoTestVideo_video7564-shot1_0/img15.jpg'), ('img5', 'Images/MSR-VTT-videoTestVideo_video7564-shot1_0/img17.jpg'), ('img6', 'Images/MSR-VTT-videoTestVideo_video7564-shot1_0/img20.jpg'), ('img7', 'Images/MSR-VTT-videoTestVideo_video7564-shot1_0/img25.jpg'), ('img8', 'Images/MSR-VTT-videoTestVideo_video7564-shot1_0/img27.jpg'), ('img9', 'Images/MSR-VTT-videoTestVideo_video7564-shot1_0/img36.jpg'), ('img10', 'Images/MSR-VTT-videoTestVideo_video7564-shot1_0/img42.jpg'), ('Q_id', 63.0), ('block', 1.0), ('is_check', 0)]), OrderedDict([('caption', 'The large cat is cut off under its eyes at the top edge and is blurry.'), ('class_caption', 'H'), ('model_guessed', 0.0), ('target_idx', 1), ('image_set', 'MSR-VTT-videoTestVideo_video9672-shot1_1'), ('img1', 'Images/MSR-VTT-videoTestVideo_video9672-shot1_1/img53.jpg'), ('img2', 'Images/MSR-VTT-videoTestVideo_video9672-shot1_1/img64.jpg'), ('img3', 'Images/MSR-VTT-videoTestVideo_video9672-shot1_1/img65.jpg'), ('img4', 'Images/MSR-VTT-videoTestVideo_video9672-shot1_1/img69.jpg'), ('img5', 'Images/MSR-VTT-videoTestVideo_video9672-shot1_1/img78.jpg'), ('img6', 'Images/MSR-VTT-videoTestVideo_video9672-shot1_1/img81.jpg'), ('img7', 'Images/MSR-VTT-videoTestVideo_video9672-shot1_1/img82.jpg'), ('img8', 'Images/MSR-VTT-videoTestVideo_video9672-shot1_1/img88.jpg'), ('img9', 'Images/MSR-VTT-videoTestVideo_video9672-shot1_1/img95.jpg'), ('img10', 'Images/MSR-VTT-videoTestVideo_video9672-shot1_1/img100.jpg'), ('Q_id', 64.0), ('block', 1.0), ('is_check', 0)]), OrderedDict([('caption', &quot;The man's head is moving upward slightly causing his image to be very blurry. &quot;), ('class_caption', 'H'), ('model_guessed', 0.0), ('target_idx', 3), ('image_set', 'MSR-VTT-videoTestVideo_video9241-shot1_0'), ('img1', 'Images/MSR-VTT-videoTestVideo_video9241-shot1_0/img0.jpg'), ('img2', 'Images/MSR-VTT-videoTestVideo_video9241-shot1_0/img3.jpg'), ('img3', 'Images/MSR-VTT-videoTestVideo_video9241-shot1_0/img10.jpg'), ('img4', 'Images/MSR-VTT-videoTestVideo_video9241-shot1_0/img14.jpg'), ('img5', 'Images/MSR-VTT-videoTestVideo_video9241-shot1_0/img16.jpg'), ('img6', 'Images/MSR-VTT-videoTestVideo_video9241-shot1_0/img23.jpg'), ('img7', 'Images/MSR-VTT-videoTestVideo_video9241-shot1_0/img27.jpg'), ('img8', 'Images/MSR-VTT-videoTestVideo_video9241-shot1_0/img40.jpg'), ('img9', 'Images/MSR-VTT-videoTestVideo_video9241-shot1_0/img52.jpg'), ('img10', 'Images/MSR-VTT-videoTestVideo_video9241-shot1_0/img56.jpg'), ('Q_id', 65.0), ('block', 1.0), ('is_check', 0)]), OrderedDict([('caption', &quot;There are two balloons on a small table. The girl's bent left arm has a small gap in between the bend..&quot;), ('class_caption', 'H'), ('model_guessed', 1.0), ('target_idx', 8), ('image_set', 'MSR-VTT-videoTestVideo_video7428-shot2_1'), ('img1', 'Images/MSR-VTT-videoTestVideo_video7428-shot2_1/img31.jpg'), ('img2', 'Images/MSR-VTT-videoTestVideo_video7428-shot2_1/img35.jpg'), ('img3', 'Images/MSR-VTT-videoTestVideo_video7428-shot2_1/img41.jpg'), ('img4', 'Images/MSR-VTT-videoTestVideo_video7428-shot2_1/img45.jpg'), ('img5', 'Images/MSR-VTT-videoTestVideo_video7428-shot2_1/img50.jpg'), ('img6', 'Images/MSR-VTT-videoTestVideo_video7428-shot2_1/img53.jpg'), ('img7', 'Images/MSR-VTT-videoTestVideo_video7428-shot2_1/img56.jpg'), ('img8', 'Images/MSR-VTT-videoTestVideo_video7428-shot2_1/img60.jpg'), ('img9', 'Images/MSR-VTT-videoTestVideo_video7428-shot2_1/img65.jpg'), ('img10', 'Images/MSR-VTT-videoTestVideo_video7428-shot2_1/img66.jpg'), ('Q_id', 66.0), ('block', 1.0), ('is_check', 0)]), OrderedDict([('caption', &quot;You can still barely see the white on the horse's front left leg.&quot;), ('class_caption', 'H'), ('model_guessed', 0.0), ('target_idx', 5), ('image_set', 'MSR-VTT-videoTestVideo_video9311-shot1_0'), ('img1', 'Images/MSR-VTT-videoTestVideo_video9311-shot1_0/img0.jpg'), ('img2', 'Images/MSR-VTT-videoTestVideo_video9311-shot1_0/img7.jpg'), ('img3', 'Images/MSR-VTT-videoTestVideo_video9311-shot1_0/img18.jpg'), ('img4', 'Images/MSR-VTT-videoTestVideo_video9311-shot1_0/img38.jpg'), ('img5', 'Images/MSR-VTT-videoTestVideo_video9311-shot1_0/img64.jpg'), ('img6', 'Images/MSR-VTT-videoTestVideo_video9311-shot1_0/img65.jpg'), ('img7', 'Images/MSR-VTT-videoTestVideo_video9311-shot1_0/img75.jpg'), ('img8', 'Images/MSR-VTT-videoTestVideo_video9311-shot1_0/img82.jpg'), ('img9', 'Images/MSR-VTT-videoTestVideo_video9311-shot1_0/img87.jpg'), ('img10', 'Images/MSR-VTT-videoTestVideo_video9311-shot1_0/img90.jpg'), ('Q_id', 68.0), ('block', 1.0), ('is_check', 0)]), OrderedDict([('caption', 'A hand takes up the majority of the foreground of the picture'), ('class_caption', 'H'), ('model_guessed', 1.0), ('target_idx', 0), ('image_set', 'MSR-VTT-videoTestVideo_video7465-shot7_0'), ('img1', 'Images/MSR-VTT-videoTestVideo_video7465-shot7_0/img0.jpg'), ('img2', 'Images/MSR-VTT-videoTestVideo_video7465-shot7_0/img1.jpg'), ('img3', 'Images/MSR-VTT-videoTestVideo_video7465-shot7_0/img2.jpg'), ('img4', 'Images/MSR-VTT-videoTestVideo_video7465-shot7_0/img3.jpg'), ('img5', 'Images/MSR-VTT-videoTestVideo_video7465-shot7_0/img7.jpg'), ('img6', 'Images/MSR-VTT-videoTestVideo_video7465-shot7_0/img11.jpg'), ('img7', 'Images/MSR-VTT-videoTestVideo_video7465-shot7_0/img16.jpg'), ('img8', 'Images/MSR-VTT-videoTestVideo_video7465-shot7_0/img21.jpg'), ('img9', 'Images/MSR-VTT-videoTestVideo_video7465-shot7_0/img26.jpg'), ('img10', 'Images/MSR-VTT-videoTestVideo_video7465-shot7_0/img30.jpg'), ('Q_id', 70.0), ('block', 1.0), ('is_check', 0)]), OrderedDict([('caption', 'A man in suit and tie has left hand by face with eyes looking down'), ('class_caption', 'H'), ('model_guessed', 0.0), ('target_idx', 4), ('image_set', 'MSR-VTT-videoTestVideo_video9623-shot1_1'), ('img1', 'Images/MSR-VTT-videoTestVideo_video9623-shot1_1/img39.jpg'), ('img2', 'Images/MSR-VTT-videoTestVideo_video9623-shot1_1/img41.jpg'), ('img3', 'Images/MSR-VTT-videoTestVideo_video9623-shot1_1/img43.jpg'), ('img4', 'Images/MSR-VTT-videoTestVideo_video9623-shot1_1/img45.jpg'), ('img5', 'Images/MSR-VTT-videoTestVideo_video9623-shot1_1/img120.jpg'), ('img6', 'Images/MSR-VTT-videoTestVideo_video9623-shot1_1/img138.jpg'), ('img7', 'Images/MSR-VTT-videoTestVideo_video9623-shot1_1/img141.jpg'), ('img8', 'Images/MSR-VTT-videoTestVideo_video9623-shot1_1/img144.jpg'), ('img9', 'Images/MSR-VTT-videoTestVideo_video9623-shot1_1/img146.jpg'), ('img10', 'Images/MSR-VTT-videoTestVideo_video9623-shot1_1/img148.jpg'), ('Q_id', 73.0), ('block', 1.0), ('is_check', 0)]), OrderedDict([('caption', 'a brighter shot of a city scape with no people present in the image'), ('class_caption', 'H'), ('model_guessed', 0.0), ('target_idx', 0), ('image_set', 'MSR-VTT-videoTestVideo_video7803-shot2_0'), ('img1', 'Images/MSR-VTT-videoTestVideo_video7803-shot2_0/img0.jpg'), ('img2', 'Images/MSR-VTT-videoTestVideo_video7803-shot2_0/img3.jpg'), ('img3', 'Images/MSR-VTT-videoTestVideo_video7803-shot2_0/img7.jpg'), ('img4', 'Images/MSR-VTT-videoTestVideo_video7803-shot2_0/img11.jpg'), ('img5', 'Images/MSR-VTT-videoTestVideo_video7803-shot2_0/img29.jpg'), ('img6', 'Images/MSR-VTT-videoTestVideo_video7803-shot2_0/img46.jpg'), ('img7', 'Images/MSR-VTT-videoTestVideo_video7803-shot2_0/img48.jpg'), ('img8', 'Images/MSR-VTT-videoTestVideo_video7803-shot2_0/img50.jpg'), ('img9', 'Images/MSR-VTT-videoTestVideo_video7803-shot2_0/img69.jpg'), ('img10', 'Images/MSR-VTT-videoTestVideo_video7803-shot2_0/img72.jpg'), ('Q_id', 75.0), ('block', 1.0), ('is_check', 0)]), OrderedDict([('caption', 'Spoon is being inserted into a small bowl.'), ('class_caption', 'H'), ('model_guessed', 0.0), ('target_idx', 4), ('image_set', 'MSR-VTT-videoTestVideo_video7254-shot1_6'), ('img1', 'Images/MSR-VTT-videoTestVideo_video7254-shot1_6/img186.jpg'), ('img2', 'Images/MSR-VTT-videoTestVideo_video7254-shot1_6/img189.jpg'), ('img3', 'Images/MSR-VTT-videoTestVideo_video7254-shot1_6/img191.jpg'), ('img4', 'Images/MSR-VTT-videoTestVideo_video7254-shot1_6/img193.jpg'), ('img5', 'Images/MSR-VTT-videoTestVideo_video7254-shot1_6/img196.jpg'), ('img6', 'Images/MSR-VTT-videoTestVideo_video7254-shot1_6/img203.jpg'), ('img7', 'Images/MSR-VTT-videoTestVideo_video7254-shot1_6/img204.jpg'), ('img8', 'Images/MSR-VTT-videoTestVideo_video7254-shot1_6/img205.jpg'), ('img9', 'Images/MSR-VTT-videoTestVideo_video7254-shot1_6/img207.jpg'), ('img10', 'Images/MSR-VTT-videoTestVideo_video7254-shot1_6/img208.jpg'), ('Q_id', 55.0), ('block', 1.0), ('is_check', 0)]), OrderedDict([('caption', 'The headlight on the blue car to the left is not yet visible. '), ('class_caption', 'H'), ('model_guessed', 0.0), ('target_idx', 0), ('image_set', 'MSR-VTT-videoTestVideo_video7692-shot2_3'), ('img1', 'Images/MSR-VTT-videoTestVideo_video7692-shot2_3/img507.jpg'), ('img2', 'Images/MSR-VTT-videoTestVideo_video7692-shot2_3/img508.jpg'), ('img3', 'Images/MSR-VTT-videoTestVideo_video7692-shot2_3/img515.jpg'), ('img4', 'Images/MSR-VTT-videoTestVideo_video7692-shot2_3/img522.jpg'), ('img5', 'Images/MSR-VTT-videoTestVideo_video7692-shot2_3/img527.jpg'), ('img6', 'Images/MSR-VTT-videoTestVideo_video7692-shot2_3/img531.jpg'), ('img7', 'Images/MSR-VTT-videoTestVideo_video7692-shot2_3/img539.jpg'), ('img8', 'Images/MSR-VTT-videoTestVideo_video7692-shot2_3/img603.jpg'), ('img9', 'Images/MSR-VTT-videoTestVideo_video7692-shot2_3/img632.jpg'), ('img10', 'Images/MSR-VTT-videoTestVideo_video7692-shot2_3/img639.jpg'), ('Q_id', 35.0), ('block', 1.0), ('is_check', 0)]), OrderedDict([('caption', 'White plate is starting to come in from the left side of the image.'), ('class_caption', 'H'), ('model_guessed', 0.0), ('target_idx', 1), ('image_set', 'MSR-VTT-videoTestVideo_video7507-shot0_0'), ('img1', 'Images/MSR-VTT-videoTestVideo_video7507-shot0_0/img0.jpg'), ('img2', 'Images/MSR-VTT-videoTestVideo_video7507-shot0_0/img13.jpg'), ('img3', 'Images/MSR-VTT-videoTestVideo_video7507-shot0_0/img27.jpg'), ('img4', 'Images/MSR-VTT-videoTestVideo_video7507-shot0_0/img30.jpg'), ('img5', 'Images/MSR-VTT-videoTestVideo_video7507-shot0_0/img34.jpg'), ('img6', 'Images/MSR-VTT-videoTestVideo_video7507-shot0_0/img42.jpg'), ('img7', 'Images/MSR-VTT-videoTestVideo_video7507-shot0_0/img57.jpg'), ('img8', 'Images/MSR-VTT-videoTestVideo_video7507-shot0_0/img64.jpg'), ('img9', 'Images/MSR-VTT-videoTestVideo_video7507-shot0_0/img111.jpg'), ('img10', 'Images/MSR-VTT-videoTestVideo_video7507-shot0_0/img132.jpg'), ('Q_id', 74.0), ('block', 1.0), ('is_check', 0)]), OrderedDict([('caption', 'There is a red object in the lower right corner of the image.  It is the largest piece of red you can see. '), ('class_caption', 'H'), ('model_guessed', 0.0), ('target_idx', 7), ('image_set', 'MSR-VTT-videoTestVideo_video7174-shot1_1'), ('img1', 'Images/MSR-VTT-videoTestVideo_video7174-shot1_1/img71.jpg'), ('img2', 'Images/MSR-VTT-videoTestVideo_video7174-shot1_1/img82.jpg'), ('img3', 'Images/MSR-VTT-videoTestVideo_video7174-shot1_1/img86.jpg'), ('img4', 'Images/MSR-VTT-videoTestVideo_video7174-shot1_1/img98.jpg'), ('img5', 'Images/MSR-VTT-videoTestVideo_video7174-shot1_1/img107.jpg'), ('img6', 'Images/MSR-VTT-videoTestVideo_video7174-shot1_1/img116.jpg'), ('img7', 'Images/MSR-VTT-videoTestVideo_video7174-shot1_1/img128.jpg'), ('img8', 'Images/MSR-VTT-videoTestVideo_video7174-shot1_1/img135.jpg'), ('img9', 'Images/MSR-VTT-videoTestVideo_video7174-shot1_1/img149.jpg'), ('img10', 'Images/MSR-VTT-videoTestVideo_video7174-shot1_1/img158.jpg'), ('Q_id', 33.0), ('block', 1.0), ('is_check', 0)]), OrderedDict([('caption', &quot;You only see the spoon right above the salad. You can see a very small blur of one finger. The mixing haven't started. &quot;), ('class_caption', 'H'), ('model_guessed', 0.0), ('target_idx', 3), ('image_set', 'YouCook-video0037-shot3_0'), ('img1', 'Images/YouCook-video0037-shot3_0/img0.jpg'), ('img2', 'Images/YouCook-video0037-shot3_0/img133.jpg'), ('img3', 'Images/YouCook-video0037-shot3_0/img199.jpg'), ('img4', 'Images/YouCook-video0037-shot3_0/img223.jpg'), ('img5', 'Images/YouCook-video0037-shot3_0/img396.jpg'), ('img6', 'Images/YouCook-video0037-shot3_0/img515.jpg'), ('img7', 'Images/YouCook-video0037-shot3_0/img539.jpg'), ('img8', 'Images/YouCook-video0037-shot3_0/img557.jpg'), ('img9', 'Images/YouCook-video0037-shot3_0/img571.jpg'), ('img10', 'Images/YouCook-video0037-shot3_0/img575.jpg'), ('Q_id', 4.0), ('block', 1.0), ('is_check', 0)]), OrderedDict([('caption', 'Just the first letter in the text at the bottom has completely faded away.'), ('class_caption', 'H'), ('model_guessed', 0.0), ('target_idx', 7), ('image_set', 'MSR-VTT-videoTestVideo_video8282-shot0_0'), ('img1', 'Images/MSR-VTT-videoTestVideo_video8282-shot0_0/img0.jpg'), ('img2', 'Images/MSR-VTT-videoTestVideo_video8282-shot0_0/img4.jpg'), ('img3', 'Images/MSR-VTT-videoTestVideo_video8282-shot0_0/img7.jpg'), ('img4', 'Images/MSR-VTT-videoTestVideo_video8282-shot0_0/img10.jpg'), ('img5', 'Images/MSR-VTT-videoTestVideo_video8282-shot0_0/img15.jpg'), ('img6', 'Images/MSR-VTT-videoTestVideo_video8282-shot0_0/img18.jpg'), ('img7', 'Images/MSR-VTT-videoTestVideo_video8282-shot0_0/img20.jpg'), ('img8', 'Images/MSR-VTT-videoTestVideo_video8282-shot0_0/img21.jpg'), ('img9', 'Images/MSR-VTT-videoTestVideo_video8282-shot0_0/img24.jpg'), ('img10', 'Images/MSR-VTT-videoTestVideo_video8282-shot0_0/img27.jpg'), ('Q_id', 6.0), ('block', 1.0), ('is_check', 0)]), OrderedDict([('caption', &quot;The gray object is not touching any of the text on the bottom.  The woman's left hand is behind the first two words of text. &quot;), ('class_caption', 'H'), ('model_guessed', 0.0), ('target_idx', 2), ('image_set', 'MSR-VTT-videoTestVideo_video8282-shot1_1'), ('img1', 'Images/MSR-VTT-videoTestVideo_video8282-shot1_1/img21.jpg'), ('img2', 'Images/MSR-VTT-videoTestVideo_video8282-shot1_1/img22.jpg'), ('img3', 'Images/MSR-VTT-videoTestVideo_video8282-shot1_1/img25.jpg'), ('img4', 'Images/MSR-VTT-videoTestVideo_video8282-shot1_1/img27.jpg'), ('img5', 'Images/MSR-VTT-videoTestVideo_video8282-shot1_1/img30.jpg'), ('img6', 'Images/MSR-VTT-videoTestVideo_video8282-shot1_1/img31.jpg'), ('img7', 'Images/MSR-VTT-videoTestVideo_video8282-shot1_1/img33.jpg'), ('img8', 'Images/MSR-VTT-videoTestVideo_video8282-shot1_1/img36.jpg'), ('img9', 'Images/MSR-VTT-videoTestVideo_video8282-shot1_1/img37.jpg'), ('img10', 'Images/MSR-VTT-videoTestVideo_video8282-shot1_1/img39.jpg'), ('Q_id', 8.0), ('block', 1.0), ('is_check', 0)]), OrderedDict([('caption', 'You can just barely see the front corner of the white van that was next to the black car. '), ('class_caption', 'H'), ('model_guessed', 0.0), ('target_idx', 2), ('image_set', 'MSR-VTT-videoTestVideo_video8560-shot1_3'), ('img1', 'Images/MSR-VTT-videoTestVideo_video8560-shot1_3/img252.jpg'), ('img2', 'Images/MSR-VTT-videoTestVideo_video8560-shot1_3/img256.jpg'), ('img3', 'Images/MSR-VTT-videoTestVideo_video8560-shot1_3/img265.jpg'), ('img4', 'Images/MSR-VTT-videoTestVideo_video8560-shot1_3/img268.jpg'), ('img5', 'Images/MSR-VTT-videoTestVideo_video8560-shot1_3/img275.jpg'), ('img6', 'Images/MSR-VTT-videoTestVideo_video8560-shot1_3/img281.jpg'), ('img7', 'Images/MSR-VTT-videoTestVideo_video8560-shot1_3/img287.jpg'), ('img8', 'Images/MSR-VTT-videoTestVideo_video8560-shot1_3/img298.jpg'), ('img9', 'Images/MSR-VTT-videoTestVideo_video8560-shot1_3/img302.jpg'), ('img10', 'Images/MSR-VTT-videoTestVideo_video8560-shot1_3/img311.jpg'), ('Q_id', 9.0), ('block', 1.0), ('is_check', 0)]), OrderedDict([('caption', 'A boy is walking into a room full of people.  On the far left is a girl in the foreground wearing a red scrunchie that you can just barely see on the far left side of the image. '), ('class_caption', 'H'), ('model_guessed', 0.0), ('target_idx', 7), ('image_set', 'MSR-VTT-videoTestVideo_video7041-shot1_1'), ('img1', 'Images/MSR-VTT-videoTestVideo_video7041-shot1_1/img59.jpg'), ('img2', 'Images/MSR-VTT-videoTestVideo_video7041-shot1_1/img62.jpg'), ('img3', 'Images/MSR-VTT-videoTestVideo_video7041-shot1_1/img72.jpg'), ('img4', 'Images/MSR-VTT-videoTestVideo_video7041-shot1_1/img74.jpg'), ('img5', 'Images/MSR-VTT-videoTestVideo_video7041-shot1_1/img77.jpg'), ('img6', 'Images/MSR-VTT-videoTestVideo_video7041-shot1_1/img84.jpg'), ('img7', 'Images/MSR-VTT-videoTestVideo_video7041-shot1_1/img92.jpg'), ('img8', 'Images/MSR-VTT-videoTestVideo_video7041-shot1_1/img97.jpg'), ('img9', 'Images/MSR-VTT-videoTestVideo_video7041-shot1_1/img99.jpg'), ('img10', 'Images/MSR-VTT-videoTestVideo_video7041-shot1_1/img108.jpg'), ('Q_id', 11.0), ('block', 1.0), ('is_check', 0)]), OrderedDict([('caption', 'The cucumber is just to be cut into, you can see a transparent image covering the image '), ('class_caption', 'H'), ('model_guessed', 0.0), ('target_idx', 1), ('image_set', 'YouCook-video0034-shot14_4'), ('img1', 'Images/YouCook-video0034-shot14_4/img355.jpg'), ('img2', 'Images/YouCook-video0034-shot14_4/img361.jpg'), ('img3', 'Images/YouCook-video0034-shot14_4/img368.jpg'), ('img4', 'Images/YouCook-video0034-shot14_4/img399.jpg'), ('img5', 'Images/YouCook-video0034-shot14_4/img403.jpg'), ('img6', 'Images/YouCook-video0034-shot14_4/img411.jpg'), ('img7', 'Images/YouCook-video0034-shot14_4/img427.jpg'), ('img8', 'Images/YouCook-video0034-shot14_4/img432.jpg'), ('img9', 'Images/YouCook-video0034-shot14_4/img436.jpg'), ('img10', 'Images/YouCook-video0034-shot14_4/img440.jpg'), ('Q_id', 13.0), ('block', 1.0), ('is_check', 0)]), OrderedDict([('caption', 'Two people standing side by side fishing.  The man on the left has jerked his whole body around so that you can now see text on his shirt. '), ('class_caption', 'H'), ('model_guessed', 0.0), ('target_idx', 2), ('image_set', 'MSR-VTT-videoTestVideo_video7816-shot0_0'), ('img1', 'Images/MSR-VTT-videoTestVideo_video7816-shot0_0/img0.jpg'), ('img2', 'Images/MSR-VTT-videoTestVideo_video7816-shot0_0/img7.jpg'), ('img3', 'Images/MSR-VTT-videoTestVideo_video7816-shot0_0/img13.jpg'), ('img4', 'Images/MSR-VTT-videoTestVideo_video7816-shot0_0/img15.jpg'), ('img5', 'Images/MSR-VTT-videoTestVideo_video7816-shot0_0/img21.jpg'), ('img6', 'Images/MSR-VTT-videoTestVideo_video7816-shot0_0/img26.jpg'), ('img7', 'Images/MSR-VTT-videoTestVideo_video7816-shot0_0/img33.jpg'), ('img8', 'Images/MSR-VTT-videoTestVideo_video7816-shot0_0/img36.jpg'), ('img9', 'Images/MSR-VTT-videoTestVideo_video7816-shot0_0/img37.jpg'), ('img10', 'Images/MSR-VTT-videoTestVideo_video7816-shot0_0/img39.jpg'), ('Q_id', 14.0), ('block', 1.0), ('is_check', 0)]), OrderedDict([('caption', &quot;The girl's left eye and mouth is visible but half of her left cheek is cut off.&quot;), ('class_caption', 'H'), ('model_guessed', 0.0), ('target_idx', 6), ('image_set', 'video-storytelling-videocamping_dBXYM3dQTSo-shot74_0'), ('img1', 'Images/video-storytelling-videocamping_dBXYM3dQTSo-shot74_0/img0.jpg'), ('img2', 'Images/video-storytelling-videocamping_dBXYM3dQTSo-shot74_0/img3.jpg'), ('img3', 'Images/video-storytelling-videocamping_dBXYM3dQTSo-shot74_0/img5.jpg'), ('img4', 'Images/video-storytelling-videocamping_dBXYM3dQTSo-shot74_0/img6.jpg'), ('img5', 'Images/video-storytelling-videocamping_dBXYM3dQTSo-shot74_0/img7.jpg'), ('img6', 'Images/video-storytelling-videocamping_dBXYM3dQTSo-shot74_0/img8.jpg'), ('img7', 'Images/video-storytelling-videocamping_dBXYM3dQTSo-shot74_0/img9.jpg'), ('img8', 'Images/video-storytelling-videocamping_dBXYM3dQTSo-shot74_0/img10.jpg'), ('img9', 'Images/video-storytelling-videocamping_dBXYM3dQTSo-shot74_0/img12.jpg'), ('img10', 'Images/video-storytelling-videocamping_dBXYM3dQTSo-shot74_0/img15.jpg'), ('Q_id', 15.0), ('block', 1.0), ('is_check', 0)]), OrderedDict([('caption', 'There is the slightest of openings to see the end of the bridge through the obstruction.'), ('class_caption', 'H'), ('model_guessed', 0.0), ('target_idx', 6), ('image_set', 'video-storytelling-videocamping_dBXYM3dQTSo-shot8_1'), ('img1', 'Images/video-storytelling-videocamping_dBXYM3dQTSo-shot8_1/img53.jpg'), ('img2', 'Images/video-storytelling-videocamping_dBXYM3dQTSo-shot8_1/img57.jpg'), ('img3', 'Images/video-storytelling-videocamping_dBXYM3dQTSo-shot8_1/img58.jpg'), ('img4', 'Images/video-storytelling-videocamping_dBXYM3dQTSo-shot8_1/img67.jpg'), ('img5', 'Images/video-storytelling-videocamping_dBXYM3dQTSo-shot8_1/img69.jpg'), ('img6', 'Images/video-storytelling-videocamping_dBXYM3dQTSo-shot8_1/img71.jpg'), ('img7', 'Images/video-storytelling-videocamping_dBXYM3dQTSo-shot8_1/img73.jpg'), ('img8', 'Images/video-storytelling-videocamping_dBXYM3dQTSo-shot8_1/img75.jpg'), ('img9', 'Images/video-storytelling-videocamping_dBXYM3dQTSo-shot8_1/img78.jpg'), ('img10', 'Images/video-storytelling-videocamping_dBXYM3dQTSo-shot8_1/img80.jpg'), ('Q_id', 16.0), ('block', 1.0), ('is_check', 0)]), OrderedDict([('caption', &quot;The man is facing left with both feet slightly back and no gap visible between the legs. The background is orange. The woman's face is pointed to the left.&quot;), ('class_caption', 'H'), ('model_guessed', 0.0), ('target_idx', 7), ('image_set', 'MSR-VTT-videoTestVideo_video9219-shot1_3'), ('img1', 'Images/MSR-VTT-videoTestVideo_video9219-shot1_3/img256.jpg'), ('img2', 'Images/MSR-VTT-videoTestVideo_video9219-shot1_3/img260.jpg'), ('img3', 'Images/MSR-VTT-videoTestVideo_video9219-shot1_3/img262.jpg'), ('img4', 'Images/MSR-VTT-videoTestVideo_video9219-shot1_3/img268.jpg'), ('img5', 'Images/MSR-VTT-videoTestVideo_video9219-shot1_3/img272.jpg'), ('img6', 'Images/MSR-VTT-videoTestVideo_video9219-shot1_3/img286.jpg'), ('img7', 'Images/MSR-VTT-videoTestVideo_video9219-shot1_3/img291.jpg'), ('img8', 'Images/MSR-VTT-videoTestVideo_video9219-shot1_3/img302.jpg'), ('img9', 'Images/MSR-VTT-videoTestVideo_video9219-shot1_3/img315.jpg'), ('img10', 'Images/MSR-VTT-videoTestVideo_video9219-shot1_3/img328.jpg'), ('Q_id', 17.0), ('block', 1.0), ('is_check', 0)]), OrderedDict([('caption', 'Her right arm is pulled back in a fist past her hair.'), ('class_caption', 'H'), ('model_guessed', 0.0), ('target_idx', 0), ('image_set', 'MSR-VTT-videoTestVideo_video7170-shot3_0'), ('img1', 'Images/MSR-VTT-videoTestVideo_video7170-shot3_0/img0.jpg'), ('img2', 'Images/MSR-VTT-videoTestVideo_video7170-shot3_0/img6.jpg'), ('img3', 'Images/MSR-VTT-videoTestVideo_video7170-shot3_0/img12.jpg'), ('img4', 'Images/MSR-VTT-videoTestVideo_video7170-shot3_0/img15.jpg'), ('img5', 'Images/MSR-VTT-videoTestVideo_video7170-shot3_0/img20.jpg'), ('img6', 'Images/MSR-VTT-videoTestVideo_video7170-shot3_0/img27.jpg'), ('img7', 'Images/MSR-VTT-videoTestVideo_video7170-shot3_0/img43.jpg'), ('img8', 'Images/MSR-VTT-videoTestVideo_video7170-shot3_0/img52.jpg'), ('img9', 'Images/MSR-VTT-videoTestVideo_video7170-shot3_0/img56.jpg'), ('img10', 'Images/MSR-VTT-videoTestVideo_video7170-shot3_0/img64.jpg'), ('Q_id', 18.0), ('block', 1.0), ('is_check', 0)]), OrderedDict([('caption', 'There is a woman on the very right side of the door. Her face is fully in view.'), ('class_caption', 'H'), ('model_guessed', 0.0), ('target_idx', 0), ('image_set', 'MSR-VTT-videoTestVideo_video9560-shot1_0'), ('img1', 'Images/MSR-VTT-videoTestVideo_video9560-shot1_0/img0.jpg'), ('img2', 'Images/MSR-VTT-videoTestVideo_video9560-shot1_0/img6.jpg'), ('img3', 'Images/MSR-VTT-videoTestVideo_video9560-shot1_0/img11.jpg'), ('img4', 'Images/MSR-VTT-videoTestVideo_video9560-shot1_0/img16.jpg'), ('img5', 'Images/MSR-VTT-videoTestVideo_video9560-shot1_0/img23.jpg'), ('img6', 'Images/MSR-VTT-videoTestVideo_video9560-shot1_0/img30.jpg'), ('img7', 'Images/MSR-VTT-videoTestVideo_video9560-shot1_0/img46.jpg'), ('img8', 'Images/MSR-VTT-videoTestVideo_video9560-shot1_0/img56.jpg'), ('img9', 'Images/MSR-VTT-videoTestVideo_video9560-shot1_0/img69.jpg'), ('img10', 'Images/MSR-VTT-videoTestVideo_video9560-shot1_0/img73.jpg'), ('Q_id', 20.0), ('block', 1.0), ('is_check', 0)]), OrderedDict([('caption', 'The image is blurred and it looks like two piles of ribs are being set on a plate.'), ('class_caption', 'H'), ('model_guessed', 0.0), ('target_idx', 0), ('image_set', 'YouCook-video0017-shot2_1'), ('img1', 'Images/YouCook-video0017-shot2_1/img98.jpg'), ('img2', 'Images/YouCook-video0017-shot2_1/img100.jpg'), ('img3', 'Images/YouCook-video0017-shot2_1/img101.jpg'), ('img4', 'Images/YouCook-video0017-shot2_1/img104.jpg'), ('img5', 'Images/YouCook-video0017-shot2_1/img105.jpg'), ('img6', 'Images/YouCook-video0017-shot2_1/img107.jpg'), ('img7', 'Images/YouCook-video0017-shot2_1/img111.jpg'), ('img8', 'Images/YouCook-video0017-shot2_1/img116.jpg'), ('img9', 'Images/YouCook-video0017-shot2_1/img121.jpg'), ('img10', 'Images/YouCook-video0017-shot2_1/img129.jpg'), ('Q_id', 22.0), ('block', 1.0), ('is_check', 0)]), OrderedDict([('caption', 'The woman has just emerged from her face being blocked by a camera stand in teh background as she is escorted by a man with an umbrella'), ('class_caption', 'H'), ('model_guessed', 0.0), ('target_idx', 6), ('image_set', 'video-storytelling-videowedding_de8dLXvgV-I-shot6_0'), ('img1', 'Images/video-storytelling-videowedding_de8dLXvgV-I-shot6_0/img0.jpg'), ('img2', 'Images/video-storytelling-videowedding_de8dLXvgV-I-shot6_0/img16.jpg'), ('img3', 'Images/video-storytelling-videowedding_de8dLXvgV-I-shot6_0/img25.jpg'), ('img4', 'Images/video-storytelling-videowedding_de8dLXvgV-I-shot6_0/img40.jpg'), ('img5', 'Images/video-storytelling-videowedding_de8dLXvgV-I-shot6_0/img53.jpg'), ('img6', 'Images/video-storytelling-videowedding_de8dLXvgV-I-shot6_0/img60.jpg'), ('img7', 'Images/video-storytelling-videowedding_de8dLXvgV-I-shot6_0/img69.jpg'), ('img8', 'Images/video-storytelling-videowedding_de8dLXvgV-I-shot6_0/img72.jpg'), ('img9', 'Images/video-storytelling-videowedding_de8dLXvgV-I-shot6_0/img81.jpg'), ('img10', 'Images/video-storytelling-videowedding_de8dLXvgV-I-shot6_0/img91.jpg'), ('Q_id', 10.0), ('block', 1.0), ('is_check', 0)]), OrderedDict([('caption', 'The woman has mostly straightened posture as she faces the boy in blue with her mouth open'), ('class_caption', 'H'), ('model_guessed', 0.0), ('target_idx', 3), ('image_set', 'MSR-VTT-videoTestVideo_video8037-shot1_0'), ('img1', 'Images/MSR-VTT-videoTestVideo_video8037-shot1_0/img1.jpg'), ('img2', 'Images/MSR-VTT-videoTestVideo_video8037-shot1_0/img5.jpg'), ('img3', 'Images/MSR-VTT-videoTestVideo_video8037-shot1_0/img10.jpg'), ('img4', 'Images/MSR-VTT-videoTestVideo_video8037-shot1_0/img13.jpg'), ('img5', 'Images/MSR-VTT-videoTestVideo_video8037-shot1_0/img22.jpg'), ('img6', 'Images/MSR-VTT-videoTestVideo_video8037-shot1_0/img27.jpg'), ('img7', 'Images/MSR-VTT-videoTestVideo_video8037-shot1_0/img29.jpg'), ('img8', 'Images/MSR-VTT-videoTestVideo_video8037-shot1_0/img30.jpg'), ('img9', 'Images/MSR-VTT-videoTestVideo_video8037-shot1_0/img31.jpg'), ('img10', 'Images/MSR-VTT-videoTestVideo_video8037-shot1_0/img34.jpg'), ('Q_id', 32.0), ('block', 1.0), ('is_check', 0)]), OrderedDict([('caption', &quot;Goofy's hand is straight up in the air and he's making a fist while riding a smiling horrse.&quot;), ('class_caption', 'H'), ('model_guessed', 0.0), ('target_idx', 3), ('image_set', 'MSR-VTT-videoTestVideo_video8183-shot0_0'), ('img1', 'Images/MSR-VTT-videoTestVideo_video8183-shot0_0/img0.jpg'), ('img2', 'Images/MSR-VTT-videoTestVideo_video8183-shot0_0/img8.jpg'), ('img3', 'Images/MSR-VTT-videoTestVideo_video8183-shot0_0/img18.jpg'), ('img4', 'Images/MSR-VTT-videoTestVideo_video8183-shot0_0/img52.jpg'), ('img5', 'Images/MSR-VTT-videoTestVideo_video8183-shot0_0/img53.jpg'), ('img6', 'Images/MSR-VTT-videoTestVideo_video8183-shot0_0/img56.jpg'), ('img7', 'Images/MSR-VTT-videoTestVideo_video8183-shot0_0/img58.jpg'), ('img8', 'Images/MSR-VTT-videoTestVideo_video8183-shot0_0/img61.jpg'), ('img9', 'Images/MSR-VTT-videoTestVideo_video8183-shot0_0/img66.jpg'), ('img10', 'Images/MSR-VTT-videoTestVideo_video8183-shot0_0/img67.jpg'), ('Q_id', 23.0), ('block', 1.0), ('is_check', 0)]), OrderedDict([('caption', 'The ball has just left the hands of the person with the red jersey.  '), ('class_caption', 'H'), ('model_guessed', 0.0), ('target_idx', 5), ('image_set', 'MSR-VTT-videoTestVideo_video8013-shot1_0'), ('img1', 'Images/MSR-VTT-videoTestVideo_video8013-shot1_0/img0.jpg'), ('img2', 'Images/MSR-VTT-videoTestVideo_video8013-shot1_0/img1.jpg'), ('img3', 'Images/MSR-VTT-videoTestVideo_video8013-shot1_0/img10.jpg'), ('img4', 'Images/MSR-VTT-videoTestVideo_video8013-shot1_0/img12.jpg'), ('img5', 'Images/MSR-VTT-videoTestVideo_video8013-shot1_0/img18.jpg'), ('img6', 'Images/MSR-VTT-videoTestVideo_video8013-shot1_0/img20.jpg'), ('img7', 'Images/MSR-VTT-videoTestVideo_video8013-shot1_0/img24.jpg'), ('img8', 'Images/MSR-VTT-videoTestVideo_video8013-shot1_0/img25.jpg'), ('img9', 'Images/MSR-VTT-videoTestVideo_video8013-shot1_0/img30.jpg'), ('img10', 'Images/MSR-VTT-videoTestVideo_video8013-shot1_0/img31.jpg'), ('Q_id', 30.0), ('block', 1.0), ('is_check', 0)]), OrderedDict([('caption', 'both hands seems straight on the meat, while the right hand is looking more flat placed on top of the meat and clearly visible'), ('class_caption', 'H'), ('model_guessed', 1.0), ('target_idx', 5), ('image_set', 'YouCook-video0017-shot2_0'), ('img1', 'Images/YouCook-video0017-shot2_0/img0.jpg'), ('img2', 'Images/YouCook-video0017-shot2_0/img3.jpg'), ('img3', 'Images/YouCook-video0017-shot2_0/img17.jpg'), ('img4', 'Images/YouCook-video0017-shot2_0/img55.jpg'), ('img5', 'Images/YouCook-video0017-shot2_0/img64.jpg'), ('img6', 'Images/YouCook-video0017-shot2_0/img79.jpg'), ('img7', 'Images/YouCook-video0017-shot2_0/img82.jpg'), ('img8', 'Images/YouCook-video0017-shot2_0/img85.jpg'), ('img9', 'Images/YouCook-video0017-shot2_0/img94.jpg'), ('img10', 'Images/YouCook-video0017-shot2_0/img97.jpg'), ('Q_id', 29.0), ('block', 1.0), ('is_check', 0)]), OrderedDict([('caption', 'A man is looking out of a window.  You can see a hand appear on the far left of the screen next to a red object that is hanging. '), ('class_caption', 'H'), ('model_guessed', 0.0), ('target_idx', 1), ('image_set', 'MSR-VTT-videoTestVideo_video8325-shot3_0'), ('img1', 'Images/MSR-VTT-videoTestVideo_video8325-shot3_0/img0.jpg'), ('img2', 'Images/MSR-VTT-videoTestVideo_video8325-shot3_0/img3.jpg'), ('img3', 'Images/MSR-VTT-videoTestVideo_video8325-shot3_0/img8.jpg'), ('img4', 'Images/MSR-VTT-videoTestVideo_video8325-shot3_0/img13.jpg'), ('img5', 'Images/MSR-VTT-videoTestVideo_video8325-shot3_0/img25.jpg'), ('img6', 'Images/MSR-VTT-videoTestVideo_video8325-shot3_0/img28.jpg'), ('img7', 'Images/MSR-VTT-videoTestVideo_video8325-shot3_0/img33.jpg'), ('img8', 'Images/MSR-VTT-videoTestVideo_video8325-shot3_0/img38.jpg'), ('img9', 'Images/MSR-VTT-videoTestVideo_video8325-shot3_0/img40.jpg'), ('img10', 'Images/MSR-VTT-videoTestVideo_video8325-shot3_0/img41.jpg'), ('Q_id', 28.0), ('block', 1.0), ('is_check', 0)]), OrderedDict([('caption', 'The finger of the hand are close together and above a piles of leaves. The thumb is close to the index finger.'), ('class_caption', 'H'), ('model_guessed', 1.0), ('target_idx', 2), ('image_set', 'video-storytelling-videocamping_EytINruY3-U-shot37_1'), ('img1', 'Images/video-storytelling-videocamping_EytINruY3-U-shot37_1/img322.jpg'), ('img2', 'Images/video-storytelling-videocamping_EytINruY3-U-shot37_1/img326.jpg'), ('img3', 'Images/video-storytelling-videocamping_EytINruY3-U-shot37_1/img333.jpg'), ('img4', 'Images/video-storytelling-videocamping_EytINruY3-U-shot37_1/img342.jpg'), ('img5', 'Images/video-storytelling-videocamping_EytINruY3-U-shot37_1/img364.jpg'), ('img6', 'Images/video-storytelling-videocamping_EytINruY3-U-shot37_1/img407.jpg'), ('img7', 'Images/video-storytelling-videocamping_EytINruY3-U-shot37_1/img431.jpg'), ('img8', 'Images/video-storytelling-videocamping_EytINruY3-U-shot37_1/img434.jpg'), ('img9', 'Images/video-storytelling-videocamping_EytINruY3-U-shot37_1/img443.jpg'), ('img10', 'Images/video-storytelling-videocamping_EytINruY3-U-shot37_1/img448.jpg'), ('Q_id', 27.0), ('block', 1.0), ('is_check', 0)]), OrderedDict([('caption', 'Olive oil bottle is seen but no label is clearly visible.'), ('class_caption', 'H'), ('model_guessed', 0.0), ('target_idx', 1), ('image_set', 'YouCook-video0035-shot4_0'), ('img1', 'Images/YouCook-video0035-shot4_0/img0.jpg'), ('img2', 'Images/YouCook-video0035-shot4_0/img105.jpg'), ('img3', 'Images/YouCook-video0035-shot4_0/img110.jpg'), ('img4', 'Images/YouCook-video0035-shot4_0/img130.jpg'), ('img5', 'Images/YouCook-video0035-shot4_0/img132.jpg'), ('img6', 'Images/YouCook-video0035-shot4_0/img134.jpg'), ('img7', 'Images/YouCook-video0035-shot4_0/img138.jpg'), ('img8', 'Images/YouCook-video0035-shot4_0/img143.jpg'), ('img9', 'Images/YouCook-video0035-shot4_0/img149.jpg'), ('img10', 'Images/YouCook-video0035-shot4_0/img156.jpg'), ('Q_id', 34.0), ('block', 1.0), ('is_check', 0)]), OrderedDict([('caption', 'The thumbs appear to be touching on the two hands. '), ('class_caption', 'H'), ('model_guessed', 0.0), ('target_idx', 6), ('image_set', 'MSR-VTT-videoTestVideo_video9799-shot1_0'), ('img1', 'Images/MSR-VTT-videoTestVideo_video9799-shot1_0/img0.jpg'), ('img2', 'Images/MSR-VTT-videoTestVideo_video9799-shot1_0/img24.jpg'), ('img3', 'Images/MSR-VTT-videoTestVideo_video9799-shot1_0/img34.jpg'), ('img4', 'Images/MSR-VTT-videoTestVideo_video9799-shot1_0/img36.jpg'), ('img5', 'Images/MSR-VTT-videoTestVideo_video9799-shot1_0/img37.jpg'), ('img6', 'Images/MSR-VTT-videoTestVideo_video9799-shot1_0/img38.jpg'), ('img7', 'Images/MSR-VTT-videoTestVideo_video9799-shot1_0/img39.jpg'), ('img8', 'Images/MSR-VTT-videoTestVideo_video9799-shot1_0/img43.jpg'), ('img9', 'Images/MSR-VTT-videoTestVideo_video9799-shot1_0/img46.jpg'), ('img10', 'Images/MSR-VTT-videoTestVideo_video9799-shot1_0/img49.jpg'), ('Q_id', 25.0), ('block', 1.0), ('is_check', 0)]), OrderedDict([('caption', 'The hamster right leg is the touching the finger holding it down.'), ('class_caption', 'H'), ('model_guessed', 0.0), ('target_idx', 1), ('image_set', 'MSR-VTT-videoTestVideo_video8672-shot1_1'), ('img1', 'Images/MSR-VTT-videoTestVideo_video8672-shot1_1/img45.jpg'), ('img2', 'Images/MSR-VTT-videoTestVideo_video8672-shot1_1/img47.jpg'), ('img3', 'Images/MSR-VTT-videoTestVideo_video8672-shot1_1/img49.jpg'), ('img4', 'Images/MSR-VTT-videoTestVideo_video8672-shot1_1/img50.jpg'), ('img5', 'Images/MSR-VTT-videoTestVideo_video8672-shot1_1/img61.jpg'), ('img6', 'Images/MSR-VTT-videoTestVideo_video8672-shot1_1/img67.jpg'), ('img7', 'Images/MSR-VTT-videoTestVideo_video8672-shot1_1/img93.jpg'), ('img8', 'Images/MSR-VTT-videoTestVideo_video8672-shot1_1/img96.jpg'), ('img9', 'Images/MSR-VTT-videoTestVideo_video8672-shot1_1/img130.jpg'), ('img10', 'Images/MSR-VTT-videoTestVideo_video8672-shot1_1/img137.jpg'), ('Q_id', 24.0), ('block', 1.0), ('is_check', 0)]), OrderedDict([('caption', 'Pair of black gloves'), ('class_caption', 'H'), ('model_guessed', None), ('target_idx', 2), ('image_set', 'open-images-510_3a241cb30d6e5319'), ('img1', 'Checks/check1/open-images-225_1442c0d0ef23d58bimg3.jpg'), ('img2', 'Checks/check1/open-images-2759_3a42708fe77398b7img8.jpg'), ('img3', 'Checks/check1/open-images-510_3a241cb30d6e5319img2.jpg'), ('img4', 'Checks/check1/open-images-2209_02c98146fb93ff17img1.jpg'), ('img5', 'Checks/check1/open-images-1553_0f128317e56a9d2fimg9.jpg'), ('img6', 'Checks/check1/open-images-2666_044d7c6d11e6b493img8.jpg'), ('img7', 'Checks/check1/open-images-2880_159294646083f545img4.jpg'), ('img8', 'Checks/check1/open-images-609_2dc0baa993a2bd25img5.jpg'), ('img9', 'Checks/check1/open-images-1854_2b15616b4f1080e7img2.jpg'), ('img10', 'Checks/check1/open-images-1435_1b0ce31951048765img8.jpg'), ('Q_id', None), ('block', None), ('is_check', 1)]), OrderedDict([('caption', 'The only picture of a hawk.  It is looking to the left.  You see lots of branches and darker blue sky. '), ('class_caption', 'H'), ('model_guessed', None), ('target_idx', 5), ('image_set', 'open-images-958_686caac9c5b322e7'), ('img1', 'Checks/check2/open-images-2603_1b5152f01f0093e7img3.jpg'), ('img2', 'Checks/check2/open-images-1836_069810916ce5d675img8.jpg'), ('img3', 'Checks/check2/open-images-974_0748fdedc4bf8b7bimg2.jpg'), ('img4', 'Checks/check2/open-images-617_01fb725fb1aa7b04img6.jpg'), ('img5', 'Checks/check2/open-images-507_047769e1f977cd97img2.jpg'), ('img6', 'Checks/check2/open-images-958_686caac9c5b322e7img5.jpg'), ('img7', 'Checks/check2/open-images-1278_21851d9bf5dc05c9img7.jpg'), ('img8', 'Checks/check2/open-images-2424_05f04546e01499f2img0.jpg'), ('img9', 'Checks/check2/open-images-1529_1442b11a10a6aeadimg3.jpg'), ('img10', 'Checks/check2/open-images-514_2c523ddedc2561d4img1.jpg'), ('Q_id', None), ('block', None), ('is_check', 1)]), OrderedDict([('caption', 'Green type writer with a red tape. '), ('class_caption', 'H'), ('model_guessed', None), ('target_idx', 9), ('image_set', 'open-images-531_0dd4eb59d465a8be'), ('img1', 'Checks/check3/open-images-503_1ccd6fa641154ebbimg7.jpg'), ('img2', 'Checks/check3/open-images-1852_00faf52058ad28b8img4.jpg'), ('img3', 'Checks/check3/open-images-386_1b2e28d6d994603eimg1.jpg'), ('img4', 'Checks/check3/open-images-471_1121e9f97c200ac0img8.jpg'), ('img5', 'Checks/check3/open-images-1886_3db71eaddb618934img8.jpg'), ('img6', 'Checks/check3/open-images-1696_20a4ebf0c0f76b05img6.jpg'), ('img7', 'Checks/check3/open-images-2447_128483a48e1552f4img6.jpg'), ('img8', 'Checks/check3/open-images-2994_9965cbf8aa20bda0img2.jpg'), ('img9', 'Checks/check3/open-images-1068_03d63613107970b3img6.jpg'), ('img10', 'Checks/check3/open-images-531_0dd4eb59d465a8beimg9.jpg'), ('Q_id', None), ('block', None), ('is_check', 1)]), OrderedDict([('caption', 'A grey elephant with golden leaves on it. '), ('class_caption', 'H'), ('model_guessed', None), ('target_idx', 2), ('image_set', 'open-images-1745_0ed62fe71809b2f5'), ('img1', 'Checks/check4/open-images-2609_3f72daeb23764ecfimg6.jpg'), ('img2', 'Checks/check4/open-images-1928_60679e2899870e08img1.jpg'), ('img3', 'Checks/check4/open-images-1745_0ed62fe71809b2f5img2.jpg'), ('img4', 'Checks/check4/open-images-1811_9ae6351c7f7565edimg0.jpg'), ('img5', 'Checks/check4/open-images-1721_6f04da11945ea492img3.jpg'), ('img6', 'Checks/check4/open-images-1907_5f9be3e4ea5e22c7img2.jpg'), ('img7', 'Checks/check4/open-images-580_0ddffb9c25141999img1.jpg'), ('img8', 'Checks/check4/open-images-2924_0645dcbcf998fed9img3.jpg'), ('img9', 'Checks/check4/open-images-869_856ecbcb5faf76e3img8.jpg'), ('img10', 'Checks/check4/open-images-250_02039517e63a91fbimg1.jpg'), ('Q_id', None), ('block', None), ('is_check', 1)]), OrderedDict([('caption', 'A penguin holding a piece of paper with text on it. '), ('class_caption', 'H'), ('model_guessed', None), ('target_idx', 1), ('image_set', 'open-images-2521_074d6af730ed17a6'), ('img1', 'Checks/check5/open-images-509_4d8bd994cb8c6eaeimg0.jpg'), ('img2', 'Checks/check5/open-images-2521_074d6af730ed17a6img1.jpg'), ('img3', 'Checks/check5/open-images-1365_a00a5fde334ae45aimg4.jpg'), ('img4', 'Checks/check5/open-images-1602_44092afdeab39e73img6.jpg'), ('img5', 'Checks/check5/open-images-1032_059f3cdfb85ee0ceimg3.jpg'), ('img6', 'Checks/check5/open-images-727_25b77fff36adba66img2.jpg'), ('img7', 'Checks/check5/open-images-2208_0fb92b9978d98575img2.jpg'), ('img8', 'Checks/check5/open-images-1305_05769e6abb16fdc8img9.jpg'), ('img9', 'Checks/check5/open-images-2676_052dbf7b4899430bimg1.jpg'), ('img10', 'Checks/check5/open-images-2569_1e81d79bb796a2dbimg7.jpg'), ('Q_id', None), ('block', None), ('is_check', 1)])]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="data_psy.csv" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="num"/>
+      <Param name="name" updates="None" val="trials" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="trial"/>
+    <LoopTerminator name="trials"/>
+    <Routine name="Code"/>
+  </Flow>
+</PsychoPy2experiment>
