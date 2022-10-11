@@ -1,10 +1,7 @@
-# emecomm_context
+# Communication breakdown: On the low mutual intelligibility between human and neural captioning
 Files for the EMNLP submission "Communication breakdown: On the low mutual intelligibility between human and neural captioning". 
+A preprint of the manuscript is accessible [here](www.google.com)
 
-
-## Text
-* [Manuscript](https://www.overleaf.com/project/62a2116aa6b90cf0c3692861)
-* [Response to reviewers](https://docs.google.com/document/d/1L95NVnGmlw5LdshIVxX7_F1NH_5lg8sjqEgX7POvfDU/edit)
 
 ## Data 
 
