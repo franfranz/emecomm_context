@@ -1,5 +1,5 @@
 # Communication breakdown: On the low mutual intelligibility between human and neural captioning
-Files for the EMNLP submission "Communication breakdown: On the low mutual intelligibility between human and neural captioning". 
+Files for the EMNLP submission "Communication breakdown: On the low mutual intelligibility between human and neural captioning", EMNLP 2022. 
 A preprint of the manuscript is accessible [here](www.google.com)
 
 
