@@ -1,34 +1,49 @@
 
+# generate frequency spectra for words and pos used in captions. 
+# for the preprocessing of input files, see emecomm_context/Analysis/README.md
 
-library(pryr)
 
 rm(list=ls())
 
+library(pryr)
 
-# generate graphs for coco captions
 
+### INPUT REQUIRED -  choose settings of graphic output:
+#
+# size of output images: uncomment your preference 
+
+#imagesize= "small" # gset1, for small, low-quality portable images
+imagesize= "medium" # gset2, average 
+#imagesize= "big" # gset3 is high-res raster image (for poster printing)
+
+
+### INPUT REQUIRED -  paths:
+#
+# where the inputs files are:
 inwd = "C:\\Data\\ALiEN\\contextual_emecomm\\COCO_captions"
+
+# where the graphs are output
 graphwd = "C:\\Data\\ALiEN\\contextual_emecomm\\COCO_captions\\coco_graphs"
 
 # input file names
 lemma_coco_file = "lemma_coco_interaction.txt"
 pos_coco_file = "pos_coco_interaction.txt"
 
-# column names
-lemmacols = list("word", "model", "human")
-poscols = list ("pos", "model", "human")
-
-
 #
 # graphical settings
 
-# colors
+# colors: green (here used for lemmas)
 col_pal_02= cartography::carto.pal("green.pal", n1=4)
-# use orange palette for coco
+# colors: orange (here used for POS)
 col_pal_01= cartography::carto.pal("orange.pal", n1=4)
 
 # axes limits (y)
 yax_lim_01 = c(0, 0.5)
+
+
+# column names
+lemmacols = list("word", "model", "human")
+poscols = list ("pos", "model", "human")
 
 
 #
@@ -207,7 +222,7 @@ setwd(graphwd)
 # size of output images: uncomment your preference 
 
 #imagesize= "small" # gset1, for small, low-quality portable images
-imagesize= "medium" # gset2, average 
+#imagesize= "medium" # gset2, average 
 #imagesize= "big" # gset3 is high-res raster image (for poster printing)
 
 g_type="cairo" 
