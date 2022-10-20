@@ -123,6 +123,8 @@ DET	5846	1267.7823641669524	8207	-1067.2359097372869
 
 So, by sorting in decreasing order by field 3 or 5, you can get the POSs or lemmas that are more typical of the neural or human corpus (note that this illustrated here is with POSs, since it's easier to fit them into the readme, but in the paper we only used the lemma analysis, as the POS distribution can be easily eyeballed as a whole in the frequency spectrum (figure 2 in the paper).
 
-
+#### 6 - Graphs 
+The file **caption:plotgraphs.R** (now in /Graphs) takes as input the files generated at point 3 (here **pos_clipcap_imagecode.txt** and **lemma_clipcap_imagecode.txt**) and plots POS frequency spectrum, lemma frequency spectrum, top 20 lemmas frequency spectrum. <br>
+Filenames and paths of the inputs and outputs must be filled in the code (lines 23, 26, 29, 30). 
 
 [1]Please note that the following example runs an analsysis on the entire validation set of ImageCoDe, whereas we only use the video subset.
